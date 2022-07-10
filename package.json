@@ -38,6 +38,7 @@
 		"@fontsource/overpass": "^4.5.8",
 		"@fortawesome/fontawesome-svg-core": "^6.1.1",
 		"@fortawesome/free-brands-svg-icons": "^6.1.1",
+		"@sveltejs/adapter-node": "^1.0.0-next.79",
 		"cookie": "^0.4.1",
 		"svelte-fa": "^3.0.2"
 	}
