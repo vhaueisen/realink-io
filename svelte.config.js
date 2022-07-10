@@ -4,7 +4,16 @@ import adapter from '@sveltejs/adapter-static';
 
 const config = {
 	kit: {
-		adapter: adapter()
+		adapter: adapter({
+			pages: 'build',
+			assets: 'build',
+			fallback: 'src/app.html',
+			precompress: false
+		}),
+
+		prerender: {
+			default: true
+		}
 	},
 	preprocess: sveltePreprocess(),
 	experimental: {
