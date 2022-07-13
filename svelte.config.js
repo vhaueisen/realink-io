@@ -1,22 +1,13 @@
-import sveltePreprocess from 'svelte-preprocess';
 import adapter from '@sveltejs/adapter-node';
+import preprocess from 'svelte-preprocess';
 /** @type {import('@sveltejs/kit').Config} */
 
-const config = {
+export default {
+	preprocess: preprocess(),
 	kit: {
-		adapter: adapter({
-			out: 'build',
-			precompress: false,
-			envPrefix: ''
-		})
+		adapter: adapter()
 	},
-	prerender: {
-		default: true
-	},
-	preprocess: sveltePreprocess(),
 	experimental: {
 		useVitePreprocess: true
 	}
 };
-
-export default config;

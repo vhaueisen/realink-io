@@ -58,7 +58,7 @@
 	}
 
 	section span {
-		margin-top: 2em 0;
+		margin: 2em 0;
 		flex-shrink: 1;
 		align-self: flex-end;
 	}
