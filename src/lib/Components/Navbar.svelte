@@ -114,15 +114,14 @@
 		text-decoration: none;
 	}
 
-	.nav > .nav-links > .nav-btns:hover {
-		background-color: rgba(0, 0, 0, 0.8);
-	}
-
 	.nav > #nav-check {
 		display: none;
 	}
 
 	@media (max-width: 1270px) {
+		.nav > .nav-links > .nav-btns:hover {
+			background-color: rgba(0, 0, 0, 0.8);
+		}
 		.nav > .nav-btn {
 			display: inline-block;
 			position: absolute;
@@ -166,6 +165,7 @@
 		}
 		.nav > #nav-check:not(:checked) ~ .nav-links {
 			height: 0px;
+			background: none;
 		}
 		.nav > #nav-check:checked ~ .nav-links {
 			height: calc(100vh - 50px);

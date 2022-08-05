@@ -5,14 +5,20 @@
 	export let to: string = '/';
 </script>
 
-<a href={to} class:active={$page.url.pathname === to}>
+<a
+	href={to}
+	class:active={to === '/'
+		? $page.url.pathname === '/'
+		: $page.url.pathname.includes(to.slice(0, -1))}
+>
 	{name}
 </a>
 
 <style>
 	a {
 		text-align: left;
-		font: normal normal medium 25px / 32px Overpass;
+		font-weight: 500;
+		font-family: Overpass;
 		letter-spacing: 4px;
 		color: var(--pure-white);
 		opacity: 1;
@@ -32,5 +38,11 @@
 		color: var(--active-color);
 		border-image-source: var(--horizontal-gradient);
 		text-decoration: none;
+	}
+
+	@media (max-width: 1280px) {
+		a {
+			padding: 1em 0;
+		}
 	}
 </style>

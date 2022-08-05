@@ -22,9 +22,11 @@
 		gap: 2em;
 		height: 100%;
 		align-items: center;
+		z-index: 9;
 	}
 
 	.content div {
+		z-index: 9;
 		max-width: 490px;
 		width: 100%;
 		margin-left: auto;

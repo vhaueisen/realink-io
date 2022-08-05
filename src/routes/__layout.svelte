@@ -11,6 +11,14 @@
 <BackgroundContainer
 	backdrop={$page.url.pathname.includes('metaverse') || $page.url.pathname.includes('games')}
 >
+	<div class="full-wh">
+		<!-- STAR ANIMATION -->
+		<div class="bg-animation">
+			<div class="stars" />
+			<div class="stars1" />
+		</div>
+		<!-- / STAR ANIMATION -->
+	</div>
 	<slot />
 </BackgroundContainer>
 
@@ -27,6 +35,11 @@
 		padding: 0.5em 0;
 		width: 100%;
 		background: transparent;
+		z-index: 10;
+		position: absolute;
+		bottom: 0;
+		left: 0;
+		right: 0;
 	}
 
 	footer a {
@@ -48,6 +61,64 @@
 		footer p {
 			margin: 0.2em auto 0 0;
 			font-size: 10pt;
+		}
+	}
+
+	.full-wh {
+		position: absolute;
+		top: 80px;
+		left: 0px;
+		bottom: 0px;
+		width: 100%;
+	}
+
+	.bg-animation {
+		position: fixed;
+		top: -8500px;
+		left: -8000px;
+		width: 100%;
+		height: 100%;
+	}
+
+	.stars {
+		position: fixed;
+		top: -5000px;
+		left: -5000px;
+		width: 20000px;
+		height: 20000px;
+		background-repeat: repeat;
+		animation: Odd 150s linear infinite;
+		opacity: 0.05;
+		background-image: url(./../lib/Assets/img/Dust1.png);
+	}
+
+	.stars1 {
+		position: fixed;
+		top: -5000px;
+		left: -5000px;
+		width: 20000px;
+		height: 20000px;
+		background-repeat: repeat;
+		animation: Even 80s linear infinite;
+		opacity: 0.07;
+		background-image: url(./../lib/Assets/img/Dust2.png);
+	}
+
+	@keyframes Odd {
+		from {
+			transform: translate(0px, 0px);
+		}
+		to {
+			transform: translate(-1000px, 1200px);
+		}
+	}
+
+	@keyframes Even {
+		from {
+			transform: translate(0px, 0px);
+		}
+		to {
+			transform: translate(1250px, 1000px);
 		}
 	}
 </style>

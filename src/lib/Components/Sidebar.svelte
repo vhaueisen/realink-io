@@ -31,6 +31,7 @@
 		overflow-x: hidden;
 		scrollbar-track-color: #000;
 		scrollbar-arrow-color: #000;
+		padding-top: 5em;
 	}
 	::-webkit-scrollbar {
 		width: 4px;
@@ -62,7 +63,7 @@
 		height: 200px !important;
 		background: rgba(255, 255, 255, 0.15);
 		box-shadow: 0px 10px 99px #00000052;
-		border-radius: 67px;
+		border-radius: 45px;
 		padding: 1em;
 		margin-bottom: 2em;
 	}
@@ -74,7 +75,7 @@
 	}
 
 	.sidebar .card .content {
-		border-radius: 67px;
+		border-radius: 30px;
 		background-size: cover;
 		background-repeat: no-repeat;
 		background-position: center;
@@ -97,6 +98,7 @@
 			flex-direction: row;
 			justify-content: flex-start;
 			bottom: auto;
+			top: 80px;
 		}
 
 		.sidebar .card {
