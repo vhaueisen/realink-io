@@ -12,7 +12,7 @@ export enum OS {
  * @returns {OS}
  */
 export const getOS = (): OS => {
-    var userAgent = (navigator as any).userAgent || (navigator as any).vendor || (window as any).opera;
+    var userAgent = window.navigator?.userAgent || window.navigator?.vendor || (window as any).opera;
     if (/windows phone/i.test(userAgent)) {
         return OS.Windows_Phone;
     }

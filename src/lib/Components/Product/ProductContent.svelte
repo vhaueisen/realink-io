@@ -3,10 +3,17 @@
 	import ProductCarousel from '$lib/Components/Product/ProductCarousel.svelte';
 	import Sidebar from '$lib/Components/Sidebar.svelte';
 	import type { IProduct } from '$lib/models/IProduct';
-	import { resolve } from '$lib/Utils/Link';
 	export let cards: string[];
 	export let product: IProduct | undefined;
 	import SvelteMarkdown from 'svelte-markdown';
+	import { onMount } from 'svelte';
+	import type { ILink } from '$lib/Utils/Link';
+	$: resolve = (link: ILink): string => '';
+
+	onMount(async () => {
+		const _module = await import('$lib/Utils/Link');
+		resolve = _module.resolve;
+	});
 </script>
 
 <article>

@@ -26,7 +26,7 @@
 	<p>Copyright 2020 — {year} por <a href="https://Realink.io">Realink</a>. Todos os direitos reservados.</p>
 </footer> -->
 <style>
-	footer {
+	/* footer {
 		display: flex;
 		flex-direction: column;
 		justify-content: flex-start;
@@ -61,7 +61,7 @@
 			margin: 0.2em auto 0 0;
 			font-size: 10pt;
 		}
-	}
+	} */
 
 	.full-wh {
 		position: absolute;
