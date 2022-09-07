@@ -5,7 +5,13 @@
 <form>
 	<!-- Company name input -->
 	<div class="form-group">
-		<input type="text" class="form-control" id="companyName" placeholder="Company Name" required />
+		<input
+			type="text"
+			class="form-control"
+			id="companyName"
+			placeholder="Nome da companhia"
+			required
+		/>
 	</div>
 
 	<!-- email input -->
@@ -15,7 +21,7 @@
 
 	<!-- message input -->
 	<div class="form-group">
-		<textarea class="form-control" id="message" rows="9" placeholder="Message" required />
+		<textarea class="form-control" id="message" rows="9" placeholder="Mensagem..." required />
 	</div>
 
 	<!-- send button -->

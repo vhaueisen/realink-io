@@ -22,10 +22,9 @@
 	<slot />
 </BackgroundContainer>
 
-<footer>
-	<p>Copyright 2020 — {year} by <a href="https://Realink.io">Realink</a>. All Rights Reserved.</p>
-</footer>
-
+<!-- <footer>
+	<p>Copyright 2020 — {year} por <a href="https://Realink.io">Realink</a>. Todos os direitos reservados.</p>
+</footer> -->
 <style>
 	footer {
 		display: flex;
@@ -89,7 +88,7 @@
 		background-repeat: repeat;
 		animation: Odd 150s linear infinite;
 		opacity: 0.05;
-		background-image: url(./../lib/Assets/img/Dust1.png);
+		background-image: url(/background/Dust1.png);
 	}
 
 	.stars1 {
@@ -101,7 +100,7 @@
 		background-repeat: repeat;
 		animation: Even 80s linear infinite;
 		opacity: 0.07;
-		background-image: url(./../lib/Assets/img/Dust2.png);
+		background-image: url(/background/Dust2.png);
 	}
 
 	@keyframes Odd {

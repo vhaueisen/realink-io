@@ -20,7 +20,7 @@
 <style>
 	.sidebar {
 		max-width: 300px;
-		position: absolute;
+		position: fixed;
 		top: 0;
 		right: -300px;
 		bottom: 0;
@@ -76,7 +76,7 @@
 
 	.sidebar .card .content {
 		border-radius: 30px;
-		background-size: cover;
+		background-size: contain;
 		background-repeat: no-repeat;
 		background-position: center;
 		height: 100%;
@@ -85,7 +85,6 @@
 
 	@media (max-width: 1280px) {
 		.sidebar {
-			position: absolute;
 			max-width: 100%;
 			width: 100%;
 			top: 0;
@@ -98,7 +97,7 @@
 			flex-direction: row;
 			justify-content: flex-start;
 			bottom: auto;
-			top: 80px;
+			top: 100px;
 		}
 
 		.sidebar .card {

@@ -15,11 +15,11 @@
 
 <div class="content">
 	<h1>{status}</h1>
-	<p>Ooops... It looks like you are lost.</p>
+	<p>Ooops... Parece que você está perdido.</p>
 	<div class="btn-row">
-		<Button type="a" href="javascript:history.back()">Go Back</Button>
+		<Button type="a" href="javascript:history.back()">Voltar</Button>
 		<div class="spacer" />
-		<Button type="a" href="/">Home</Button>
+		<Button type="a" href="/">Início</Button>
 	</div>
 </div>
 
@@ -42,6 +42,7 @@
 		display: flex;
 		flex-direction: row;
 		justify-content: center;
+		z-index: 9;
 	}
 
 	.content {

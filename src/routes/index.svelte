@@ -1,5 +1,5 @@
 <svelte:head>
-	<title>Realink — Home</title>
+	<title>Realink — Início</title>
 	<meta name="description" content="Realink.io's homepage." />
 </svelte:head>
 

@@ -3,18 +3,23 @@
 	import ProductCarousel from '$lib/Components/Product/ProductCarousel.svelte';
 	import Sidebar from '$lib/Components/Sidebar.svelte';
 	import type { IProduct } from '$lib/models/IProduct';
+	import { resolve } from '$lib/Utils/Link';
 	export let cards: string[];
 	export let product: IProduct | undefined;
+	import SvelteMarkdown from 'svelte-markdown';
 </script>
 
 <article>
 	<section>
 		<ProductCarousel slides={product?.slides ? product?.slides : []} />
 		<h2>{product?.title}</h2>
-		<p>{product?.content}</p>
+		<SvelteMarkdown source={product?.content} />
 		<span>
-			<Button type="a" href="/quote">GET QUOTE</Button>
+			{#each product?.link ?? [] as l}
+				<Button type="a" href={resolve(l)}>{l.text}</Button>
+			{/each}
 		</span>
+		<div class="spacer">&nbsp;</div>
 	</section>
 	<Sidebar {cards} idx={product?.id} />
 </article>
@@ -29,6 +34,7 @@
 		position: relative;
 		overflow-y: auto;
 		overflow-x: hidden;
+		margin-bottom: 2em;
 	}
 
 	section {
@@ -38,7 +44,7 @@
 		width: 100%;
 		display: flex;
 		flex-direction: column;
-		justify-content: center;
+		padding-top: 8em;
 	}
 
 	section::-webkit-scrollbar {
@@ -49,18 +55,26 @@
 		margin-top: 2em;
 	}
 
-	section p {
+	/* section p {
 		text-align: left;
 		font: normal normal medium 20px/24px Lato;
 		letter-spacing: 0px;
 		color: #f3f9fc;
 		opacity: 1;
-	}
+	} */
 
 	section span {
-		margin: 2em 0;
+		margin: 2em 0 5em 0;
 		flex-shrink: 1;
 		align-self: flex-end;
+	}
+
+	section span :global(a) {
+		margin: 0 0.5em;
+	}
+
+	.spacer {
+		height: 5em;
 	}
 
 	@media (max-width: 1280px) {

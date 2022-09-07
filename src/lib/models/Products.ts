@@ -1,4 +1,9 @@
+import { neco } from '$lib/models/BonecoNeco';
+import { bus } from '$lib/models/BuildYourBus';
+import { colorindo } from '$lib/models/Colorindo';
+import { wings } from '$lib/models/HyperlightWings';
 import type { IProduct } from '$lib/models/IProduct';
+import { OS } from '$lib/Utils/OS';
 
 export const Products: Array<{ id: string; content: IProduct[] }> = [
 	{
@@ -6,77 +11,64 @@ export const Products: Array<{ id: string; content: IProduct[] }> = [
 		content: [
 			{
 				id: 0,
-				title: 'METAVERSO COMUNIDADE DAS NAÇÕES',
-				img: 'https://wallpaperaccess.com/full/52447.jpg',
-				content:
-					'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.',
-				slides: [
-					{
-						title: 'Metaverse',
-						img: 'https://cliparting.com/wp-content/uploads/2018/03/cool-pictures-2018-3.jpg'
-					},
-					{
-						title: 'Games',
-						img: 'https://img.freepik.com/free-photo/cool-futuristic-abstract-background-with-shining-neon-lights_181624-10997.jpg'
-					},
-					{
-						title: 'About',
-						img: 'https://wallpaperaccess.com/full/52447.jpg'
-					},
-					{
-						title: 'Contact',
-						img: 'https://wallpapers.com/images/high/cool-sasuke-silhouette-lc25i40g70n0ben0.jpg'
-					}
+				title: 'Hyperlight Wings — 2021',
+				img: '/hyperlight_wings/slide1.png',
+				content: wings,
+				slides: ['/hyperlight_wings/slide1.png'],
+				link: [
+					{ href: { [OS.Desktop]: 'https://www.roblox.com/games/6882790797/Hyperlight-Wings-Alpha' }, text: "Acessar" },
+					{ href: { [OS.Desktop]: '/quote' }, text: "Contato" },
 				]
 			},
 			{
 				id: 1,
-				title: 'INPEACE METAVERSE',
-				img: 'https://img.freepik.com/free-photo/cool-futuristic-abstract-background-with-shining-neon-lights_181624-10997.jpg',
-				content:
-					'Consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.',
-				slides: [
+				title: 'Colorindo a Cultura Capixaba — 2021',
+				img: '/colorindo/icon.png',
+				content: colorindo,
+				slides: ['/colorindo/slide1.png'],
+				link: [
 					{
-						title: 'Metaverse',
-						img: 'https://cliparting.com/wp-content/uploads/2018/03/cool-pictures-2018-3.jpg'
+						href: {
+							[OS.Desktop]: 'https://play.google.com/store/apps/details?id=com.BardoSolutions.Coloring.MuquecaEditorial',
+							[OS.iOS]: 'https://apps.apple.com/us/app/colorindo-a-cultura-capixaba/id1563589901'
+						},
+						text: "Acessar"
 					},
-					{
-						title: 'Games',
-						img: 'https://img.freepik.com/free-photo/cool-futuristic-abstract-background-with-shining-neon-lights_181624-10997.jpg'
-					},
-					{
-						title: 'About',
-						img: 'https://wallpaperaccess.com/full/52447.jpg'
-					},
-					{
-						title: 'Contact',
-						img: 'https://wallpapers.com/images/high/cool-sasuke-silhouette-lc25i40g70n0ben0.jpg'
-					}
+					{ href: { [OS.Desktop]: '/quote' }, text: "Contato" },
 				]
 			},
 			{
 				id: 2,
-				title: 'METAVERSO COMUNIDADE DAS NAÇÕES',
-				img: 'https://cliparting.com/wp-content/uploads/2018/03/cool-pictures-2018-3.jpg',
-				content:
-					'Eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.',
-				slides: [
+				title: 'Boneco Neco — 2021',
+				img: '/boneco_neco/icon.png',
+				content: neco,
+				slides: ['/boneco_neco/slide1.png'],
+				link: [
 					{
-						title: 'Games',
-						img: 'https://img.freepik.com/free-photo/cool-futuristic-abstract-background-with-shining-neon-lights_181624-10997.jpg'
+						href: {
+							[OS.Android]: 'https://play.google.com/store/apps/details?id=com.BardoSolutions.EndlessRunner.GrupoEstripolia',
+							[OS.Desktop]: 'https://grupoestripolia.com.br/jogo/',
+							[OS.iOS]: 'https://apps.apple.com/us/app/boneco-neco/id1585767464'
+						},
+						text: "Acessar"
 					},
+					{ href: { [OS.Desktop]: '/quote' }, text: "Contato" },
+				]
+			},
+			{
+				id: 3,
+				title: 'Explode Asteroids — 2017',
+				img: '/explode_asteroids/icon.webp',
+				content: `Embarque em uma jornada pelo espaço e destrua todos os asteroides! Use seu blaster de nave espacial para destruir os asteroides de todas as cores. Ganhe moedas e compre até 12 naves espaciais únicas e 12 projéteis diferentes. Com modo daltônico.`,
+				slides: ['/explode_asteroids/slide1.png'],
+				link: [
 					{
-						title: 'Metaverse',
-						img: 'https://cliparting.com/wp-content/uploads/2018/03/cool-pictures-2018-3.jpg'
+						href: {
+							[OS.Desktop]: 'https://play.google.com/store/apps/details?id=com.ChroniclesGameStudio.ExplodeAsteroids',
+						},
+						text: "Acessar"
 					},
-					{
-						title: 'Contact',
-						img: 'https://wallpapers.com/images/high/cool-sasuke-silhouette-lc25i40g70n0ben0.jpg'
-					},
-					{
-						title: 'About',
-						img: 'https://wallpaperaccess.com/full/52447.jpg'
-					}
+					{ href: { [OS.Desktop]: '/quote' }, text: "Contato" },
 				]
 			}
 		]
@@ -86,113 +78,33 @@ export const Products: Array<{ id: string; content: IProduct[] }> = [
 		content: [
 			{
 				id: 0,
-				title: 'METAVERSO COMUNIDADE DAS NAÇÕES',
-				img: 'https://d9hhrg4mnvzow.cloudfront.net/www.cnmeta.com.br/dc734369-tela-1-altspace_10cd07f000000000000028.png',
-				content:
-					'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.',
+				title: 'CN Meta — 2022',
+				img: 'https://www.cnoferta.com.br/img/open-graph-min.jpg?v=2',
+				content: `O CN Meta, desenvolvido em parceria com a igreja Comunidade das Nações, é um ambiente virtual do templo religioso onde cultos e apresentações podem ser realizadas de forma virtual, sem perder o toque e o afeto humano, por meio de um ambiente customizado e interativo.`,
 				slides: [
-					{
-						title: 'About',
-						img: 'https://www.cnoferta.com.br/img/open-graph-min.jpg?v=2'
-					},
-					{
-						title: 'Metaverse',
-						img: 'https://d9hhrg4mnvzow.cloudfront.net/www.cnmeta.com.br/5eef9ff1-imagem-3_10000001hc0op00001a028.png'
-					},
-					{
-						title: 'Games',
-						img: 'https://d9hhrg4mnvzow.cloudfront.net/www.cnmeta.com.br/5c6768ba-bg-hipica-verso_100000000000000000001o.jpg'
-					}
+					'https://www.cnoferta.com.br/img/open-graph-min.jpg?v=2',
+					'https://d9hhrg4mnvzow.cloudfront.net/www.cnmeta.com.br/5c6768ba-bg-hipica-verso_100000000000000000001o.jpg',
+					'/cn_meta/slide1.jpeg',
+					'/cn_meta/slide2.jpeg',
+					'/cn_meta/slide3.jpeg',
+					'/cn_meta/slide4.jpeg',
+				],
+				link: [
+					{ href: { [OS.Desktop]: 'https://account.altvr.com/worlds/2004110644231537386/spaces/2004111153713643806' }, text: "Acessar" },
+					{ href: { [OS.Desktop]: '/quote' }, text: "Contato" },
 				]
 			},
 			{
 				id: 1,
-				title: 'METAVERSO COMUNIDADE DAS NAÇÕES',
-				img: 'https://wallpaperaccess.com/full/52447.jpg',
-				content:
-					'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.',
-				slides: [
-					{
-						title: 'Metaverse',
-						img: 'https://cliparting.com/wp-content/uploads/2018/03/cool-pictures-2018-3.jpg'
-					},
-					{
-						title: 'Games',
-						img: 'https://img.freepik.com/free-photo/cool-futuristic-abstract-background-with-shining-neon-lights_181624-10997.jpg'
-					},
-					{
-						title: 'About',
-						img: 'https://wallpaperaccess.com/full/52447.jpg'
-					},
-					{
-						title: 'Contact',
-						img: 'https://wallpapers.com/images/high/cool-sasuke-silhouette-lc25i40g70n0ben0.jpg'
-					}
+				title: 'Build your Bus — 2021',
+				img: '/build_your_bus/icon.png',
+				content: bus,
+				slides: ['/build_your_bus/slide1.png'],
+				link: [
+					{ href: { [OS.Desktop]: 'https://storm.realink.io/' }, text: "Acessar" },
+					{ href: { [OS.Desktop]: '/quote' }, text: "Contato" },
 				]
 			},
-			{
-				id: 2,
-				title: 'METAVERSO COMUNIDADE DAS NAÇÕES',
-				img: 'https://wallpaperaccess.com/full/52447.jpg',
-				content:
-					'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.',
-				slides: [
-					{
-						title: 'Metaverse',
-						img: 'https://cliparting.com/wp-content/uploads/2018/03/cool-pictures-2018-3.jpg'
-					},
-					{
-						title: 'Games',
-						img: 'https://img.freepik.com/free-photo/cool-futuristic-abstract-background-with-shining-neon-lights_181624-10997.jpg'
-					},
-					{
-						title: 'About',
-						img: 'https://wallpaperaccess.com/full/52447.jpg'
-					},
-					{
-						title: 'Contact',
-						img: 'https://wallpapers.com/images/high/cool-sasuke-silhouette-lc25i40g70n0ben0.jpg'
-					}
-				]
-			},
-			{
-				id: 3,
-				title: 'INPEACE METAVERSE',
-				img: 'https://img.freepik.com/free-photo/cool-futuristic-abstract-background-with-shining-neon-lights_181624-10997.jpg',
-				content:
-					'Consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.',
-				slides: [
-					{
-						title: 'Metaverse',
-						img: 'https://cliparting.com/wp-content/uploads/2018/03/cool-pictures-2018-3.jpg'
-					},
-					{
-						title: 'Games',
-						img: 'https://img.freepik.com/free-photo/cool-futuristic-abstract-background-with-shining-neon-lights_181624-10997.jpg'
-					},
-					{
-						title: 'About',
-						img: 'https://wallpaperaccess.com/full/52447.jpg'
-					},
-					{
-						title: 'Contact',
-						img: 'https://wallpapers.com/images/high/cool-sasuke-silhouette-lc25i40g70n0ben0.jpg'
-					}
-				]
-			},
-			{
-				id: 4,
-				title: 'METAVERSO COMUNIDADE DAS NAÇÕES',
-				img: 'https://cliparting.com/wp-content/uploads/2018/03/cool-pictures-2018-3.jpg',
-				content:
-					'Eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.',
-				slides: [
-					{
-						title: 'Games',
-						img: 'httfuturistic-abstract-background-with-shining-neon-lights_181624-10997.jpg'
-					}
-				]
-			}
 		]
 	}
 ];

@@ -21,7 +21,7 @@
 	}
 
 	main.container {
-		background-image: url(../Assets/img/primary-background.jpg);
+		background-image: url(/background/primary-background.jpg);
 		background-position: center;
 		background-repeat: no-repeat;
 		background-size: cover;

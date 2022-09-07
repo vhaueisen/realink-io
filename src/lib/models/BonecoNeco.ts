@@ -1,0 +1,3 @@
+export const neco = `**Boneco Neco: Aventuras na Terra Capixaba** acompanha o personagem Neco e seu fiel amigo, o Burrinho Jiló, ambos personagens do [Grupo Estripolia](https://grupoestripolia.com.br/), em uma aventura pelas montanhas e praias do Espírito Santo. Colete produtos culturais e se divirta!
+
+O Grupo Estripolia é uma banda de música infantis capixaba, sediada em Vila Velha, Espírito Santo, Brasil. Conheça as músicas e videoclipes do grupo no **[YouTube](https://www.youtube.com/channel/UCa3xMgFYlIKL5dkkmbWFw0g)** e no **[Spotify](https://open.spotify.com/album/7cmeRk4Mf2LYDPL3rPqe0H?hc_ref=)**.`;

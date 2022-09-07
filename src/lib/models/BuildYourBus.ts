@@ -1,0 +1,1 @@
+export const bus = `**Build your bus** é um projeto de customização automotiva em parceria com a Storm Comunicação e Hangar 426. Nele, é possível customizar até quatro variações de Kombi Volkswagen, alterando cores, estruturas, tipos de rodas e etc. Ao final, é possível gerar um relatório com as escolhas.`;

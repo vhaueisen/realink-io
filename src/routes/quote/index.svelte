@@ -3,13 +3,13 @@
 </script>
 
 <svelte:head>
-	<title>Realink — Quote</title>
+	<title>Realink — Fale Conosco</title>
 	<meta name="description" content="About this app" />
 </svelte:head>
 
 <div class="content">
 	<div>
-		<h1>GET QUOTE</h1>
+		<h1>CONTATO</h1>
 		<QuoteForm />
 	</div>
 </div>

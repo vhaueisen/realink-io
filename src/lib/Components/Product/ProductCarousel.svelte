@@ -1,5 +1,5 @@
 <script lang="ts">
-	export let slides: { title: string; img: string }[] = [];
+	export let slides: string[] = [];
 	$: onNext = false;
 	$: onPrev = false;
 	$: idx = 0;
@@ -39,7 +39,7 @@
 					class:first={i === 0}
 					class:last={i === slides.length - 1}
 					style="
-                            background-image: url({slides[(idx + i) % slides.length].img});
+                            background-image: url({slides[(idx + i) % slides.length]});
                             z-index: {onNext && i === 0
 						? 0
 						: slides.length - i + (onNext ? 1 : onPrev ? -1 : 0)};
@@ -51,7 +51,7 @@
 			{/each}
 		</div>
 
-		<span id="next" on:click={next}>
+		<span id="next" on:click={prev}>
 			<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 51.401 51.401">
 				<defs>
 					<style>
@@ -77,7 +77,7 @@
 			</svg>
 		</span>
 
-		<span id="prev" on:click={prev}>
+		<span id="prev" on:click={next}>
 			<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 51.401 51.401">
 				<defs>
 					<style>

@@ -1,0 +1,1 @@
+export const wings = `**Hyperlight Wings** é uma experiência de batalha de aviões para a plataforma Roblox! Junte-se a seus amigos ou jogue com jogadores de todo o mundo. Compre novos aviões e personalize-os como quiser, usando cores, materiais, patterns, acessórios e novos tipos de munição. Até 10 jogadores por partida.`;

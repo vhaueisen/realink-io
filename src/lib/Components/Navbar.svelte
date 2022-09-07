@@ -15,10 +15,10 @@
 		</div>
 
 		<div class="nav-links">
-			<div class="nav-btns"><NavButton name="Home" to="/" /></div>
-			<div class="nav-btns"><NavButton name="Metaverse" to="/product/metaverse/0" /></div>
-			<div class="nav-btns"><NavButton name="Games" to="/product/games/0" /></div>
-			<div class="nav-btns"><NavButton name="Quote" to="/quote" /></div>
+			<div class="nav-btns"><NavButton name="Início" to="/" /></div>
+			<div class="nav-btns"><NavButton name="Metaversos" to="/product/metaverse/0" /></div>
+			<div class="nav-btns"><NavButton name="Jogos" to="/product/games/0" /></div>
+			<div class="nav-btns"><NavButton name="Contato" to="/quote" /></div>
 		</div>
 	</div>
 
@@ -175,6 +175,7 @@
 			height: 100px;
 			padding: 0;
 			margin: 0;
+			background: rgba(0, 0, 0, 0.5);
 		}
 	}
 </style>
