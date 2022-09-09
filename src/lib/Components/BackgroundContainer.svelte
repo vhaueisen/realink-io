@@ -3,7 +3,7 @@
 </script>
 
 <main class="container">
-	<div class="backdrop" class:active={backdrop}>
+	<div class="backdrop" class:active={backdrop} style="overflow: hidden">
 		<slot />
 		<div />
 	</div>
@@ -18,6 +18,8 @@
 		height: 100%;
 		width: 100%;
 		overflow: hidden;
+		overflow-y: hidden;
+		overflow-x: hidden;
 	}
 
 	main.container {

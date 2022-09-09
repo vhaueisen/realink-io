@@ -20,7 +20,7 @@
 	--heading-color: var(--pure-white);
 }
 html {
-	height: 100vh;
+	height: 100%;
 	margin: 0;
 }
 
@@ -33,7 +33,7 @@ body {
 }
 
 #svelte {
-	min-height: 100vh;
+	min-height: 100%;
 	display: flex;
 	flex-direction: column;
 }

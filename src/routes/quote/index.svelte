@@ -23,6 +23,7 @@
 		height: 100%;
 		align-items: center;
 		z-index: 9;
+		margin-top: 1em;
 	}
 
 	.content div {

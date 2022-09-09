@@ -1,10 +1,17 @@
 <script lang="ts">
 	import NavButton from '$lib/Components/NavButton.svelte';
+	let navCheckElem: HTMLInputElement | null;
+
+	const navClick = () => {
+		if (navCheckElem) {
+			navCheckElem.checked = false;
+		}
+	};
 </script>
 
 <nav>
 	<div class="nav">
-		<input type="checkbox" id="nav-check" />
+		<input type="checkbox" id="nav-check" bind:this={navCheckElem} />
 
 		<div class="nav-btn">
 			<label for="nav-check">
@@ -15,10 +22,14 @@
 		</div>
 
 		<div class="nav-links">
-			<div class="nav-btns"><NavButton name="Início" to="/" /></div>
-			<div class="nav-btns"><NavButton name="Metaversos" to="/product/metaverse/0" /></div>
-			<div class="nav-btns"><NavButton name="Jogos" to="/product/games/0" /></div>
-			<div class="nav-btns"><NavButton name="Contato" to="/quote" /></div>
+			<div class="nav-btns"><NavButton name="Início" to="/" onClick={navClick} /></div>
+			<div class="nav-btns">
+				<NavButton name="Metaversos" to="/product/metaverse/0" onClick={navClick} />
+			</div>
+			<div class="nav-btns">
+				<NavButton name="Jogos" to="/product/games/0" onClick={navClick} />
+			</div>
+			<div class="nav-btns"><NavButton name="Contato" to="/quote" onClick={navClick} /></div>
 		</div>
 	</div>
 
@@ -168,7 +179,9 @@
 			background: none;
 		}
 		.nav > #nav-check:checked ~ .nav-links {
-			height: calc(100vh - 50px);
+			position: absolute;
+			top: 100px;
+			height: calc(100vh - 100px - 9px);
 			overflow-y: auto;
 		}
 		nav {

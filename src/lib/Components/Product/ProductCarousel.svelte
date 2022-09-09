@@ -171,20 +171,24 @@
 		overflow: hidden;
 	}
 
-	#slider .item.first:not(.animating),
+	/* #slider .item.first:not(.animating),
 	#slider .item.last.animating {
 		border: 3px solid rgb(64, 64, 64);
-	}
+	} */
 
 	#slider .item:hover:not(:first-child) {
 		cursor: pointer;
 	}
 
+	#slider .item {
+		box-shadow: 8px 4px 6px 0px #00000052;
+	}
+
 	@media (max-width: 1280px) {
-		#slider .item.first:not(.animating),
+		/* #slider .item.first:not(.animating),
 		#slider .item.last.animating {
 			border: 1px solid rgb(64, 64, 64);
-		}
+		} */
 
 		#slider {
 			margin-top: 40px;

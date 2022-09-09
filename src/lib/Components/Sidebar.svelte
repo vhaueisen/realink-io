@@ -81,6 +81,7 @@
 		background-position: center;
 		height: 100%;
 		width: 100%;
+		background-color: black;
 	}
 
 	@media (max-width: 1280px) {

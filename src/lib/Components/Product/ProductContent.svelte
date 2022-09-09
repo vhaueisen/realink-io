@@ -72,8 +72,13 @@
 
 	section span {
 		margin: 2em 0 5em 0;
-		flex-shrink: 1;
 		align-self: flex-end;
+		height: auto;
+		display: flex;
+		width: 100%;
+		flex-direction: row;
+		align-items: center;
+		justify-content: flex-end;
 	}
 
 	section span :global(a) {
@@ -88,7 +93,7 @@
 		section {
 			padding: 1em 2em 2em 2em;
 			justify-content: flex-start;
-			margin-top: 117px;
+			margin-top: 150px;
 		}
 		section h2 {
 			margin-top: 3em;

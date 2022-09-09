@@ -3,9 +3,11 @@
 
 	export let name: string;
 	export let to: string = '/';
+	export let onClick: () => void = () => {};
 </script>
 
 <a
+	on:click={onClick}
 	href={to}
 	class:active={to === '/'
 		? $page.url.pathname === '/'
