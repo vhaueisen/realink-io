@@ -14,7 +14,7 @@ export const Products: Array<{ id: string; content: IProduct[] }> = [
 				title: 'Hyperlight Wings — 2021',
 				img: '/hyperlight_wings/slide1.png',
 				content: wings,
-				slides: ['/hyperlight_wings/slide1.png'],
+				slides: ['https://www.youtube.com/embed/6JXtxsXj0jM', '/hyperlight_wings/slide1.png'],
 				link: [
 					{ href: { [OS.Desktop]: 'https://www.roblox.com/games/6882790797/Hyperlight-Wings-Alpha' }, text: "Acessar" },
 					{ href: { [OS.Desktop]: '/quote' }, text: "Contato" },
@@ -25,7 +25,12 @@ export const Products: Array<{ id: string; content: IProduct[] }> = [
 				title: 'Colorindo a Cultura Capixaba — 2021',
 				img: '/colorindo/icon.png',
 				content: colorindo,
-				slides: ['/colorindo/slide1.png'],
+				slides: [
+					'https://www.youtube.com/embed/52brkRRCUrk',
+					'https://www.youtube.com/embed/BPoiooYzOzM',
+					'https://www.youtube.com/embed/EAiJ2s8gEes',
+					'/colorindo/slide1.png'
+				],
 				link: [
 					{
 						href: {
@@ -42,7 +47,7 @@ export const Products: Array<{ id: string; content: IProduct[] }> = [
 				title: 'Boneco Neco — 2021',
 				img: '/boneco_neco/icon.png',
 				content: neco,
-				slides: ['/boneco_neco/slide1.png'],
+				slides: ['https://www.youtube.com/embed/yd1TM-PTGBI', '/boneco_neco/slide1.png'],
 				link: [
 					{
 						href: {
@@ -99,7 +104,10 @@ export const Products: Array<{ id: string; content: IProduct[] }> = [
 				title: 'Build your Bus — 2021',
 				img: '/build_your_bus/icon.png',
 				content: bus,
-				slides: ['/build_your_bus/slide1.png'],
+				slides: [
+					'https://www.youtube.com/embed/EcDt-3oPS_g',
+					'/build_your_bus/slide1.png',
+				],
 				link: [
 					{ href: { [OS.Desktop]: 'https://storm.realink.io/' }, text: "Acessar" },
 					{ href: { [OS.Desktop]: '/quote' }, text: "Contato" },

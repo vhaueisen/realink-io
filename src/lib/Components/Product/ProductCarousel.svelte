@@ -39,7 +39,12 @@
 					class:first={i === 0}
 					class:last={i === slides.length - 1}
 					style="
-                            background-image: url({slides[(idx + i) % slides.length]});
+							background-color: white;
+                            background-image: url({/youtube.com/.test(
+						slides[(idx + i) % slides.length]
+					)
+						? ''
+						: slides[(idx + i) % slides.length]});
                             z-index: {onNext && i === 0
 						? 0
 						: slides.length - i + (onNext ? 1 : onPrev ? -1 : 0)};
@@ -47,7 +52,19 @@
 						(onNext && i === 0 ? -slides.length + 1 : onNext ? 1 : onPrev ? -1 : 0)) *
 						10}%)
                         "
-				/>
+				>
+					{#if /youtube.com/.test(slides[(idx + i) % slides.length]) && i === 0}
+						<iframe
+							width="100%"
+							height="100%"
+							src={slides[(idx + i) % slides.length]}
+							title="YouTube video player"
+							frameborder="0"
+							allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+							allowfullscreen
+						/>
+					{/if}
+				</div>
 			{/each}
 		</div>
 
@@ -57,14 +74,15 @@
 					<style>
 						.cls-1 {
 							fill: none;
-							stroke: var(--pure-white);
+							stroke: white;
 							stroke-miterlimit: 10;
 							stroke-width: 7px;
 							transition: stroke 0.3s ease-in-out;
+							filter: drop-shadow(-4px -4px 2px rgb(0 0 0 / 0.4));
 						}
 
 						#next:hover .cls-1 {
-							stroke: var(--active-color);
+							stroke: var(--secondary-color);
 						}
 					</style>
 				</defs>
@@ -83,14 +101,15 @@
 					<style>
 						.cls-1 {
 							fill: none;
-							stroke: var(--pure-white);
+							stroke: white;
 							stroke-miterlimit: 10;
 							stroke-width: 7px;
 							transition: stroke 0.3s ease-in-out;
+							filter: drop-shadow(-4px -4px 2px rgb(0 0 0 / 0.4));
 						}
 
 						#prev:hover .cls-1 {
-							stroke: var(--active-color);
+							stroke: var(--secondary-color);
 						}
 					</style>
 				</defs>

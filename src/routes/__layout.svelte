@@ -63,12 +63,19 @@
 		}
 	} */
 
+	/* Hide scrollbar for Chrome, Safari and Opera */
+	.full-wh::-webkit-scrollbar {
+		display: none;
+	}
+
 	.full-wh {
 		position: absolute;
 		top: 80px;
 		left: 0px;
 		bottom: 0px;
 		width: 100%;
+		-ms-overflow-style: none; /* IE and Edge */
+		scrollbar-width: none; /* Firefox */
 	}
 
 	.bg-animation {
