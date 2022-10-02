@@ -1,13 +1,13 @@
 <script lang="ts">
 	import ProductContent from '$lib/Components/Product/ProductContent.svelte';
-	import type { IProductResponse } from '$lib/database';
-	export let item: IProductResponse;
+	/** @type {import('./$types').PageData} */
+	export let data: any;
 </script>
 
 <svelte:head>
 	<title>Realink — Games</title>
 	<meta name="description" content="Our Games" />
 </svelte:head>
-{#if item}
-	<ProductContent cards={item.cards} product={item?.content} />
+{#if data}
+	<ProductContent cards={data?.cards} product={data?.content} />
 {/if}

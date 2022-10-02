@@ -1,12 +1,13 @@
 <script lang="ts">
 	export let type = 'button';
 	export let href = '/';
-	export let onclick = () => {};
+	export let btnType = '';
+	export let onclick: any = () => {};
 </script>
 
 <!-- if button -->
 {#if type === 'button'}
-	<button {onclick} {type}>
+	<button on:click={onclick} type={btnType}>
 		<slot />
 	</button>
 {/if}

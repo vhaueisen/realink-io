@@ -95,7 +95,7 @@ export const Products: Array<{ id: string; content: IProduct[] }> = [
 					'/cn_meta/slide4.jpeg',
 				],
 				link: [
-					{ href: { [OS.Desktop]: 'https://account.altvr.com/worlds/2004110644231537386/spaces/2004111153713643806' }, text: "Acessar" },
+					{ href: { [OS.Desktop]: 'https://www.cnmeta.com.br/' }, text: "Acessar" },
 					{ href: { [OS.Desktop]: '/quote' }, text: "Contato" },
 				]
 			},
