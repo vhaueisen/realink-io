@@ -2,6 +2,7 @@ import { neco } from '$lib/models/BonecoNeco';
 import { bus } from '$lib/models/BuildYourBus';
 import { colorindo } from '$lib/models/Colorindo';
 import { wings } from '$lib/models/HyperlightWings';
+import { sportvLand } from '$lib/models/SportvLand';
 import type { IProduct } from '$lib/models/IProduct';
 import { OS } from '$lib/Utils/OS';
 
@@ -83,6 +84,23 @@ export const Products: Array<{ id: string; content: IProduct[] }> = [
 		content: [
 			{
 				id: 0,
+				title: 'Sportv Land — 2022',
+				img: 'https://tr.rbxcdn.com/7b2105ef8eb79214b4fb95c6b6a6702b/512/512/Image/Png',
+				content: sportvLand,
+				slides: [
+					'https://www.youtube.com/embed/p8ATWn6VMNY',
+					'https://tr.rbxcdn.com/f5462c3e650074338dc7a11f2a999fcd/768/432/Image/Png',
+					'https://tr.rbxcdn.com/56ba36f6cc763e00ad521ceb375fa721/768/432/Image/Png',
+					'https://tr.rbxcdn.com/76090c07aabe4400770e6871bc7965a2/768/432/Image/Png',
+					'https://tr.rbxcdn.com/5bb27b937ff091453d8263dd5e1b7a8b/768/432/Image/Png',
+				],
+				link: [
+					{ href: { [OS.Desktop]: 'https://www.roblox.com/games/11512530631/sportv-land' }, text: "Acessar" },
+					{ href: { [OS.Desktop]: '/quote' }, text: "Contato" },
+				]
+			},
+			{
+				id: 1,
 				title: 'CN Meta — 2022',
 				img: 'https://www.cnoferta.com.br/img/open-graph-min.jpg?v=2',
 				content: `O CN Meta, desenvolvido em parceria com a igreja Comunidade das Nações, é um ambiente virtual do templo religioso onde cultos e apresentações podem ser realizadas de forma virtual, sem perder o toque e o afeto humano, por meio de um ambiente customizado e interativo.`,
@@ -100,7 +118,7 @@ export const Products: Array<{ id: string; content: IProduct[] }> = [
 				]
 			},
 			{
-				id: 1,
+				id: 2,
 				title: 'Build your Bus — 2021',
 				img: '/build_your_bus/icon.png',
 				content: bus,
