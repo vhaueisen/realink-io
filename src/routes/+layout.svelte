@@ -1,130 +1,103 @@
 <script lang="ts">
-	import BackgroundContainer from '$lib/Components/BackgroundContainer.svelte';
-	import Navbar from '$lib/Components/Navbar.svelte';
-	import '../app.css';
-	import { page } from '$app/stores';
-	const year = new Date().getFullYear();
+  import BackgroundContainer from "$lib/Components/BackgroundContainer.svelte";
+  import Navbar from "$lib/Components/Navbar.svelte";
+  import { page } from "$app/stores";
+  import "../app.css";
+  const author = "Realink";
 </script>
 
-<Navbar />
+<svelte:head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link rel="icon" href="/favicon.png" />
+  <link
+    href="https://fonts.googleapis.com/css?family=Overpass"
+    rel="stylesheet"
+  />
+  <meta name="robots" content="index, follow" />
+  <meta name="author" content={author} />
+  <meta name="type" content="website" />
+  <meta name="og:type" property="og:type" content="website" />
+  <meta property="og:site_name" content={author} />
+  <meta property="og:locale" content="pt_BR" />
+</svelte:head>
 
+<Navbar />
 <BackgroundContainer
-	backdrop={$page.url.pathname.includes('metaverse') || $page.url.pathname.includes('games')}
+  backdrop={$page.url.pathname.includes("metaverse") ||
+    $page.url.pathname.includes("games")}
 >
-	<div class="full-wh">
-		<!-- STAR ANIMATION -->
-		<div class="bg-animation">
-			<div class="stars" />
-			<div class="stars1" />
-		</div>
-		<!-- / STAR ANIMATION -->
-	</div>
-	<slot />
+  <div class="full-wh">
+    <div class="bg-animation">
+      <div class="stars" />
+      <div class="stars1" />
+    </div>
+  </div>
+  <slot />
 </BackgroundContainer>
 
-<!-- <footer>
-	<p>Copyright 2020 — {year} por <a href="https://Realink.io">Realink</a>. Todos os direitos reservados.</p>
-</footer> -->
 <style>
-	/* footer {
-		display: flex;
-		flex-direction: column;
-		justify-content: flex-start;
-		align-items: center;
-		padding: 0.5em 0;
-		width: 100%;
-		background: transparent;
-		z-index: 10;
-		position: absolute;
-		bottom: 0;
-		left: 0;
-		right: 0;
-	}
+  .full-wh::-webkit-scrollbar {
+    display: none;
+  }
 
-	footer a {
-		font-weight: bold;
-	}
+  .full-wh {
+    position: absolute;
+    top: 80px;
+    left: 0px;
+    bottom: 0px;
+    width: 100%;
+    -ms-overflow-style: none; /* IE and Edge */
+    scrollbar-width: none; /* Firefox */
+  }
 
-	footer p {
-		margin: 0;
-		margin-right: auto;
-		padding-left: 1em;
-	}
+  .bg-animation {
+    position: fixed;
+    top: -8500px;
+    left: -8000px;
+    width: 100%;
+    height: 100%;
+  }
 
-	@media (max-width: 768px) {
-		footer {
-			padding: 0;
-			text-overflow: clip;
-		}
+  .stars {
+    position: fixed;
+    top: -5000px;
+    left: -5000px;
+    width: 20000px;
+    height: 20000px;
+    background-repeat: repeat;
+    animation: Odd 150s linear infinite;
+    opacity: 0.05;
+    background-image: url(/background/Dust1.png);
+  }
 
-		footer p {
-			margin: 0.2em auto 0 0;
-			font-size: 10pt;
-		}
-	} */
+  .stars1 {
+    position: fixed;
+    top: -5000px;
+    left: -5000px;
+    width: 20000px;
+    height: 20000px;
+    background-repeat: repeat;
+    animation: Even 80s linear infinite;
+    opacity: 0.07;
+    background-image: url(/background/Dust2.png);
+  }
 
-	/* Hide scrollbar for Chrome, Safari and Opera */
-	.full-wh::-webkit-scrollbar {
-		display: none;
-	}
+  @keyframes Odd {
+    from {
+      transform: translate(0px, 0px);
+    }
+    to {
+      transform: translate(-1000px, 1200px);
+    }
+  }
 
-	.full-wh {
-		position: absolute;
-		top: 80px;
-		left: 0px;
-		bottom: 0px;
-		width: 100%;
-		-ms-overflow-style: none; /* IE and Edge */
-		scrollbar-width: none; /* Firefox */
-	}
-
-	.bg-animation {
-		position: fixed;
-		top: -8500px;
-		left: -8000px;
-		width: 100%;
-		height: 100%;
-	}
-
-	.stars {
-		position: fixed;
-		top: -5000px;
-		left: -5000px;
-		width: 20000px;
-		height: 20000px;
-		background-repeat: repeat;
-		animation: Odd 150s linear infinite;
-		opacity: 0.05;
-		background-image: url(/background/Dust1.png);
-	}
-
-	.stars1 {
-		position: fixed;
-		top: -5000px;
-		left: -5000px;
-		width: 20000px;
-		height: 20000px;
-		background-repeat: repeat;
-		animation: Even 80s linear infinite;
-		opacity: 0.07;
-		background-image: url(/background/Dust2.png);
-	}
-
-	@keyframes Odd {
-		from {
-			transform: translate(0px, 0px);
-		}
-		to {
-			transform: translate(-1000px, 1200px);
-		}
-	}
-
-	@keyframes Even {
-		from {
-			transform: translate(0px, 0px);
-		}
-		to {
-			transform: translate(1250px, 1000px);
-		}
-	}
+  @keyframes Even {
+    from {
+      transform: translate(0px, 0px);
+    }
+    to {
+      transform: translate(1250px, 1000px);
+    }
+  }
 </style>
