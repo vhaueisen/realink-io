@@ -25,7 +25,8 @@
 <Navbar />
 <BackgroundContainer
   backdrop={$page.url.pathname.includes("metaverse") ||
-    $page.url.pathname.includes("games")}
+    $page.url.pathname.includes("games") ||
+    $page.url.pathname.includes("privacy-policy")}
 >
   <div class="full-wh">
     <div class="bg-animation">

@@ -3,42 +3,42 @@
     "file": "_app/immutable/assets/overpass-cyrillic-400-normal-cd53305c.woff2",
     "src": "node_modules/@fontsource/overpass/files/overpass-cyrillic-400-normal.woff2"
   },
-  "node_modules/@fontsource/overpass/files/overpass-cyrillic-ext-400-normal.woff2": {
-    "file": "_app/immutable/assets/overpass-cyrillic-ext-400-normal-1b1b532c.woff2",
-    "src": "node_modules/@fontsource/overpass/files/overpass-cyrillic-ext-400-normal.woff2"
-  },
-  "node_modules/@fontsource/lato/files/lato-latin-ext-400-normal.woff2": {
-    "file": "_app/immutable/assets/lato-latin-ext-400-normal-1c2fc265.woff2",
-    "src": "node_modules/@fontsource/lato/files/lato-latin-ext-400-normal.woff2"
-  },
   "node_modules/@fontsource/overpass/files/overpass-latin-400-normal.woff2": {
     "file": "_app/immutable/assets/overpass-latin-400-normal-b6f01e18.woff2",
     "src": "node_modules/@fontsource/overpass/files/overpass-latin-400-normal.woff2"
-  },
-  "node_modules/@fontsource/overpass/files/overpass-latin-ext-400-normal.woff2": {
-    "file": "_app/immutable/assets/overpass-latin-ext-400-normal-10424c70.woff2",
-    "src": "node_modules/@fontsource/overpass/files/overpass-latin-ext-400-normal.woff2"
   },
   "node_modules/@fontsource/lato/files/lato-latin-400-normal.woff2": {
     "file": "_app/immutable/assets/lato-latin-400-normal-918b7dc3.woff2",
     "src": "node_modules/@fontsource/lato/files/lato-latin-400-normal.woff2"
   },
-  "node_modules/@fontsource/lato/files/lato-all-400-normal.woff": {
-    "file": "_app/immutable/assets/lato-all-400-normal-8844f83a.woff",
-    "src": "node_modules/@fontsource/lato/files/lato-all-400-normal.woff"
+  "node_modules/@fontsource/overpass/files/overpass-cyrillic-ext-400-normal.woff2": {
+    "file": "_app/immutable/assets/overpass-cyrillic-ext-400-normal-1b1b532c.woff2",
+    "src": "node_modules/@fontsource/overpass/files/overpass-cyrillic-ext-400-normal.woff2"
+  },
+  "node_modules/@fontsource/overpass/files/overpass-latin-ext-400-normal.woff2": {
+    "file": "_app/immutable/assets/overpass-latin-ext-400-normal-10424c70.woff2",
+    "src": "node_modules/@fontsource/overpass/files/overpass-latin-ext-400-normal.woff2"
+  },
+  "node_modules/@fontsource/lato/files/lato-latin-ext-400-normal.woff2": {
+    "file": "_app/immutable/assets/lato-latin-ext-400-normal-1c2fc265.woff2",
+    "src": "node_modules/@fontsource/lato/files/lato-latin-ext-400-normal.woff2"
   },
   "node_modules/@fontsource/overpass/files/overpass-all-400-normal.woff": {
     "file": "_app/immutable/assets/overpass-all-400-normal-9a2f5f37.woff",
     "src": "node_modules/@fontsource/overpass/files/overpass-all-400-normal.woff"
   },
+  "node_modules/@fontsource/lato/files/lato-all-400-normal.woff": {
+    "file": "_app/immutable/assets/lato-all-400-normal-8844f83a.woff",
+    "src": "node_modules/@fontsource/lato/files/lato-all-400-normal.woff"
+  },
   "node_modules/@sveltejs/kit/src/runtime/client/start.js": {
-    "file": "_app/immutable/start-1f72c391.js",
+    "file": "_app/immutable/start-1e87c480.js",
     "src": "node_modules/@sveltejs/kit/src/runtime/client/start.js",
     "isEntry": true,
     "imports": [
       "_preload-helper-aa6bc0ce.js",
       "_index-57f83b02.js",
-      "_singletons-406fe2a1.js",
+      "_singletons-19432c41.js",
       "_control-03134885.js"
     ],
     "dynamicImports": [
@@ -46,19 +46,20 @@
       ".svelte-kit/generated/nodes/1.js",
       ".svelte-kit/generated/nodes/2.js",
       ".svelte-kit/generated/nodes/3.js",
-      ".svelte-kit/generated/nodes/4.js"
+      ".svelte-kit/generated/nodes/4.js",
+      ".svelte-kit/generated/nodes/5.js"
     ]
   },
   "src/routes/+layout.svelte": {
-    "file": "_app/immutable/components/pages/_layout.svelte-e6a8dfa1.js",
+    "file": "_app/immutable/components/pages/_layout.svelte-26bb833c.js",
     "src": "src/routes/+layout.svelte",
     "isEntry": true,
     "imports": [
       "_index-57f83b02.js",
-      "_singletons-406fe2a1.js"
+      "_singletons-19432c41.js"
     ],
     "css": [
-      "_app/immutable/assets/_layout-4644f8ea.css"
+      "_app/immutable/assets/_layout-5e004416.css"
     ],
     "assets": [
       "_app/immutable/assets/overpass-cyrillic-ext-400-normal-1b1b532c.woff2",
@@ -72,51 +73,59 @@
     ]
   },
   "src/routes/+error.svelte": {
-    "file": "_app/immutable/components/pages/_error.svelte-fbfb0fb9.js",
+    "file": "_app/immutable/components/pages/_error.svelte-7d0a66f9.js",
     "src": "src/routes/+error.svelte",
     "isEntry": true,
     "imports": [
       "_index-57f83b02.js",
-      "_Button-fa517738.js"
+      "_Button-f4cb886a.js"
     ],
     "css": [
       "_app/immutable/assets/_error-971a3147.css"
     ]
   },
   "src/routes/+page.svelte": {
-    "file": "_app/immutable/components/pages/_page.svelte-9df7d2b4.js",
+    "file": "_app/immutable/components/pages/_page.svelte-353a4157.js",
     "src": "src/routes/+page.svelte",
     "isEntry": true,
     "imports": [
       "_index-57f83b02.js"
     ]
   },
+  "src/routes/privacy-policy/papa-peixe/+page.svelte": {
+    "file": "_app/immutable/components/pages/privacy-policy/papa-peixe/_page.svelte-3aa6602b.js",
+    "src": "src/routes/privacy-policy/papa-peixe/+page.svelte",
+    "isEntry": true,
+    "imports": [
+      "_index-57f83b02.js"
+    ]
+  },
   "src/routes/product/[productTypeId]/[productId]/+page.svelte": {
-    "file": "_app/immutable/components/pages/product/_productTypeId_/_productId_/_page.svelte-bb641c4b.js",
+    "file": "_app/immutable/components/pages/product/_productTypeId_/_productId_/_page.svelte-3b57b6ef.js",
     "src": "src/routes/product/[productTypeId]/[productId]/+page.svelte",
     "isEntry": true,
     "imports": [
       "_index-57f83b02.js",
       "_preload-helper-aa6bc0ce.js",
-      "_Button-fa517738.js"
+      "_Button-f4cb886a.js"
     ],
     "dynamicImports": [
       "src/lib/Utils/Link.ts"
     ],
     "css": [
-      "_app/immutable/assets/_page-372b693c.css"
+      "_app/immutable/assets/_page-3aba67a1.css"
     ]
   },
   "src/routes/quote/+page.svelte": {
-    "file": "_app/immutable/components/pages/quote/_page.svelte-4a44909d.js",
+    "file": "_app/immutable/components/pages/quote/_page.svelte-f7d56067.js",
     "src": "src/routes/quote/+page.svelte",
     "isEntry": true,
     "imports": [
       "_index-57f83b02.js",
-      "_Button-fa517738.js"
+      "_Button-f4cb886a.js"
     ],
     "css": [
-      "_app/immutable/assets/_page-cd35fd33.css"
+      "_app/immutable/assets/_page-ba62d41b.css"
     ]
   },
   "src/routes/product/[productTypeId]/[productId]/+page.ts": {
@@ -127,8 +136,8 @@
       "__page-44d4a284.js"
     ]
   },
-  "_singletons-406fe2a1.js": {
-    "file": "_app/immutable/chunks/singletons-406fe2a1.js",
+  "_singletons-19432c41.js": {
+    "file": "_app/immutable/chunks/singletons-19432c41.js",
     "imports": [
       "_index-57f83b02.js"
     ]
@@ -142,8 +151,8 @@
   "_control-03134885.js": {
     "file": "_app/immutable/chunks/control-03134885.js"
   },
-  "_Button-fa517738.js": {
-    "file": "_app/immutable/chunks/Button-fa517738.js",
+  "_Button-f4cb886a.js": {
+    "file": "_app/immutable/chunks/Button-f4cb886a.js",
     "imports": [
       "_index-57f83b02.js"
     ],
@@ -162,7 +171,7 @@
     "file": "_app/immutable/chunks/OS-34bd786a.js"
   },
   ".svelte-kit/generated/nodes/0.js": {
-    "file": "_app/immutable/chunks/0-35ff57fa.js",
+    "file": "_app/immutable/chunks/0-70f29322.js",
     "src": ".svelte-kit/generated/nodes/0.js",
     "isDynamicEntry": true,
     "imports": [
@@ -170,7 +179,7 @@
     ]
   },
   ".svelte-kit/generated/nodes/1.js": {
-    "file": "_app/immutable/chunks/1-264a3c7d.js",
+    "file": "_app/immutable/chunks/1-38b070ab.js",
     "src": ".svelte-kit/generated/nodes/1.js",
     "isDynamicEntry": true,
     "imports": [
@@ -178,7 +187,7 @@
     ]
   },
   ".svelte-kit/generated/nodes/2.js": {
-    "file": "_app/immutable/chunks/2-9e7c4a7a.js",
+    "file": "_app/immutable/chunks/2-c838c7df.js",
     "src": ".svelte-kit/generated/nodes/2.js",
     "isDynamicEntry": true,
     "imports": [
@@ -186,17 +195,25 @@
     ]
   },
   ".svelte-kit/generated/nodes/3.js": {
-    "file": "_app/immutable/chunks/3-3f00e270.js",
+    "file": "_app/immutable/chunks/3-b7e7d4b9.js",
     "src": ".svelte-kit/generated/nodes/3.js",
+    "isDynamicEntry": true,
+    "imports": [
+      "src/routes/privacy-policy/papa-peixe/+page.svelte"
+    ]
+  },
+  ".svelte-kit/generated/nodes/4.js": {
+    "file": "_app/immutable/chunks/4-b7c21aed.js",
+    "src": ".svelte-kit/generated/nodes/4.js",
     "isDynamicEntry": true,
     "imports": [
       "__page-44d4a284.js",
       "src/routes/product/[productTypeId]/[productId]/+page.svelte"
     ]
   },
-  ".svelte-kit/generated/nodes/4.js": {
-    "file": "_app/immutable/chunks/4-fa1c1312.js",
-    "src": ".svelte-kit/generated/nodes/4.js",
+  ".svelte-kit/generated/nodes/5.js": {
+    "file": "_app/immutable/chunks/5-087786c9.js",
+    "src": ".svelte-kit/generated/nodes/5.js",
     "isDynamicEntry": true,
     "imports": [
       "src/routes/quote/+page.svelte"
@@ -211,23 +228,23 @@
     ]
   },
   "src/routes/+layout.css": {
-    "file": "_app/immutable/assets/_layout-4644f8ea.css",
+    "file": "_app/immutable/assets/_layout-5e004416.css",
     "src": "src/routes/+layout.css"
-  },
-  "src/routes/quote/+page.css": {
-    "file": "_app/immutable/assets/_page-cd35fd33.css",
-    "src": "src/routes/quote/+page.css"
   },
   "src/routes/+error.css": {
     "file": "_app/immutable/assets/_error-971a3147.css",
     "src": "src/routes/+error.css"
   },
-  "src/routes/product/[productTypeId]/[productId]/+page.css": {
-    "file": "_app/immutable/assets/_page-372b693c.css",
-    "src": "src/routes/product/[productTypeId]/[productId]/+page.css"
-  },
   "Button.css": {
     "file": "_app/immutable/assets/Button-dcf7fb3b.css",
     "src": "Button.css"
+  },
+  "src/routes/product/[productTypeId]/[productId]/+page.css": {
+    "file": "_app/immutable/assets/_page-3aba67a1.css",
+    "src": "src/routes/product/[productTypeId]/[productId]/+page.css"
+  },
+  "src/routes/quote/+page.css": {
+    "file": "_app/immutable/assets/_page-ba62d41b.css",
+    "src": "src/routes/quote/+page.css"
   }
 }

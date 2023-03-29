@@ -25,25 +25,28 @@
 </svelte:head>
 
 <div class="content">
-  <div>
-    <h1>CONTATO</h1>
-    {#if !(form?.success || form?.error)}
-      <QuoteForm />
-    {/if}
-    {#if form?.success}
-      <p>Seu contato foi enviado e logo será tratado por nossa equipe!</p>
-    {/if}
-    {#if form?.error}
-      <p>
-        {form?.error}
-      </p>
-    {/if}
-  </div>
+  <article>
+    <div>
+      <h1>CONTATO</h1>
+      {#if !(form?.success || form?.error)}
+        <QuoteForm />
+      {/if}
+      {#if form?.success}
+        <p>Seu contato foi enviado e logo será tratado por nossa equipe!</p>
+      {/if}
+      {#if form?.error}
+        <p>
+          {form?.error}
+        </p>
+      {/if}
+    </div>
+  </article>
 </div>
 
 <style>
   .content {
     width: 100%;
+    padding: 1em;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     gap: 2em;
