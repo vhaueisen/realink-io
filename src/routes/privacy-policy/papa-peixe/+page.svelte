@@ -1,10 +1,19 @@
 <svelte:head>
-  <title>Privacy Policy of Papa-Peixe</title>
-  <meta http-equiv="Content-Language" content="en" />
-  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-  <meta http-equiv="date" content="2023-03-29" />
-  <meta http-equiv="last-modified" content="2023-03-29" />
-  <meta itemprop="name" content="Privacy Policy of Papa Peixe" />
+  <title>Papa-Peixe — Política de privacidade</title>
+  <meta
+    name="description"
+    content="Política de privacidade para o Papa-Peixe: jogo eletrônico do gênero puzzle casual, focado na cultura do Mato Grosso."
+  />
+  <meta
+    name="og:title"
+    property="og:title"
+    content="Papa-Peixe — Política de privacidade"
+  />
+  <meta
+    name="og:description"
+    property="og:description"
+    content="Política de privacidade para o Papa-Peixe: jogo eletrônico do gênero puzzle casual, focado na cultura do Mato Grosso."
+  />
 </svelte:head>
 
 <article>

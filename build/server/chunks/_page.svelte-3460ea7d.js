@@ -1,7 +1,7 @@
 import { c as create_ssr_component } from './index-4bd6642a.js';
 
 const Page = create_ssr_component(($$result, $$props, $$bindings, slots) => {
-  return `${$$result.head += `${$$result.title = `<title>Privacy Policy of Papa-Peixe</title>`, ""}<meta http-equiv="${"Content-Language"}" content="${"en"}" data-svelte="svelte-pa6qss"><meta http-equiv="${"Content-Type"}" content="${"text/html; charset=utf-8"}" data-svelte="svelte-pa6qss"><meta http-equiv="${"date"}" content="${"2023-03-29"}" data-svelte="svelte-pa6qss"><meta http-equiv="${"last-modified"}" content="${"2023-03-29"}" data-svelte="svelte-pa6qss"><meta itemprop="${"name"}" content="${"Privacy Policy of Papa Peixe"}" data-svelte="svelte-pa6qss">`, ""}
+  return `${$$result.head += `${$$result.title = `<title>Papa-Peixe \u2014 Pol\xEDtica de privacidade</title>`, ""}<meta name="${"description"}" content="${"Pol\xEDtica de privacidade para o Papa-Peixe: jogo eletr\xF4nico do g\xEAnero puzzle casual, focado na cultura do Mato Grosso."}" data-svelte="svelte-1f4rgw1"><meta name="${"og:title"}" property="${"og:title"}" content="${"Papa-Peixe \u2014 Pol\xEDtica de privacidade"}" data-svelte="svelte-1f4rgw1"><meta name="${"og:description"}" property="${"og:description"}" content="${"Pol\xEDtica de privacidade para o Papa-Peixe: jogo eletr\xF4nico do g\xEAnero puzzle casual, focado na cultura do Mato Grosso."}" data-svelte="svelte-1f4rgw1">`, ""}
 
 <article><section>
     
@@ -358,4 +358,4 @@ const Page = create_ssr_component(($$result, $$props, $$bindings, slots) => {
 });
 
 export { Page as default };
-//# sourceMappingURL=_page.svelte-10418559.js.map
+//# sourceMappingURL=_page.svelte-3460ea7d.js.map
