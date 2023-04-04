@@ -1,5 +1,3 @@
-import { e as error } from './index2-1a2749b7.js';
-
 const neco = `**Boneco Neco: Aventuras na Terra Capixaba** acompanha o personagem Neco e seu fiel amigo, o Burrinho Jil\xF3, ambos personagens do [Grupo Estripolia](https://grupoestripolia.com.br/), em uma aventura pelas montanhas e praias do Esp\xEDrito Santo. Colete produtos culturais e se divirta!
 
 O Grupo Estripolia \xE9 uma banda de m\xFAsica infantis capixaba, sediada em Vila Velha, Esp\xEDrito Santo, Brasil. Conhe\xE7a as m\xFAsicas e videoclipes do grupo no **[YouTube](https://www.youtube.com/channel/UCa3xMgFYlIKL5dkkmbWFw0g)** e no **[Spotify](https://open.spotify.com/album/7cmeRk4Mf2LYDPL3rPqe0H?hc_ref=)**.`;
@@ -39,6 +37,39 @@ var OS = /* @__PURE__ */ ((OS2) => {
   OS2[OS2["Desktop"] = 3] = "Desktop";
   return OS2;
 })(OS || {});
+const papaPeixe = `**Papa-Peixe** \xE9 um jogo eletr\xF4nico do g\xEAnero puzzle casual, focado na cultura do Mato Grosso, que possui dois tipos de jogabilidade: palavras cruzadas e ca\xE7a palavras.
+
+### Em ambas os modos, o usu\xE1rio poder\xE1 exercitar habilidades como:
+- Leitura
+- Vocabul\xE1rio
+- Ortografia
+- Identifica\xE7\xE3o e forma\xE7\xE3o de palavras
+
+Al\xE9m dessas habilidades t\xE9cnicas, voc\xEA ir\xE1 imergir nos elementos da cultura e identidade do estado de Mato Grosso, durante cada n\xEDvel das tr\xEAs categorias presentes no game: Turismo, Hist\xF3ria e Literatura.
+
+### Dentro da Trilha de Turismo, ser\xE3o apresentados desafios como:
+- Pontos tur\xEDsticos
+- Principais cidades do estado
+- Beleza naturais
+
+### Na Trilha de Hist\xF3ria:
+- Personagens hist\xF3ricos
+- Guerra do Paraguai
+- Coloniza\xE7\xE3o do Estado
+- Arte rupestre
+- Patrim\xF4nios hist\xF3ricos
+
+### Dentro da Trilha de Literatura:
+- Obra de autores matogrossenses famosos como Manoel de Barros
+- Espress\xF5es art\xEDticas
+- Pinturas expressionistas
+
+### Al\xE9m dessas especifica\xE7\xF5es, o game contar\xE1 com:
+- 300 desafios in\xE9ditos
+- Desbloqueio e colecionamento de cartas
+- Dicas e a possibilidade somar moedas.
+
+Esse jogo \xE9 resultado de uma parceria com a Secretaria de Estado e de Cultura, Esporte e Lazer do Mato Grosso e a empresa \u201CRealink\u201D, formada por desenvolvedores independentes de games e aplicativos, provenientes de diferentes locais do Brasil e viabilizado pelo Edital de Sele\xE7\xE3o P\xFAblica, N\xFAmero 09/2021 - SECEL/MT, Jogos Eletr\xF4nicos - Games.`;
 const Products = [
   {
     id: "games",
@@ -56,6 +87,42 @@ const Products = [
       },
       {
         id: 1,
+        title: "Papa-Peixe \u2014 2023",
+        img: "https://play-lh.googleusercontent.com/NMSXCfnrzvjna2dxiL1dtIkflfM-_F53LKYB3g51B53nE2WRQJCrB5O8IrbaHBAHTBek",
+        content: papaPeixe,
+        slides: [
+          "/papa-peixe/slide1.png",
+          "/papa-peixe/slide2.png",
+          "/papa-peixe/slide3.png",
+          "/papa-peixe/slide4.png"
+        ],
+        link: [
+          {
+            href: {
+              [OS.Desktop]: "https://play.google.com/store/apps/details?id=com.Realink.Words.PapaPeixe",
+              [OS.iOS]: "https://apps.apple.com/app/id6447073898"
+            },
+            text: "Acessar"
+          },
+          { href: { [OS.Desktop]: "/quote" }, text: "Contato" }
+        ]
+      },
+      {
+        id: 2,
+        title: "Build your Bus \u2014 2021",
+        img: "https://realink.io/build_your_bus/icon.png",
+        content: bus,
+        slides: [
+          "https://www.youtube.com/embed/EcDt-3oPS_g",
+          "/build_your_bus/slide1.png"
+        ],
+        link: [
+          { href: { [OS.Desktop]: "https://storm.realink.io/" }, text: "Acessar" },
+          { href: { [OS.Desktop]: "/quote" }, text: "Contato" }
+        ]
+      },
+      {
+        id: 3,
         title: "Colorindo a Cultura Capixaba \u2014 2021",
         img: "https://realink.io/colorindo/icon.png",
         content: colorindo,
@@ -77,7 +144,7 @@ const Products = [
         ]
       },
       {
-        id: 2,
+        id: 4,
         title: "Boneco Neco \u2014 2021",
         img: "https://realink.io/boneco_neco/icon.png",
         content: neco,
@@ -95,7 +162,7 @@ const Products = [
         ]
       },
       {
-        id: 3,
+        id: 5,
         title: "Explode Asteroids \u2014 2017",
         img: "https://realink.io/explode_asteroids/icon.webp",
         content: `Embarque em uma jornada pelo espa\xE7o e destrua todos os asteroides! Use seu blaster de nave espacial para destruir os asteroides de todas as cores. Ganhe moedas e compre at\xE9 12 naves espaciais \xFAnicas e 12 proj\xE9teis diferentes. Com modo dalt\xF4nico.`,
@@ -149,24 +216,26 @@ const Products = [
           { href: { [OS.Desktop]: "https://www.cnmeta.com.br/" }, text: "Acessar" },
           { href: { [OS.Desktop]: "/quote" }, text: "Contato" }
         ]
-      },
-      {
-        id: 2,
-        title: "Build your Bus \u2014 2021",
-        img: "https://realink.io/build_your_bus/icon.png",
-        content: bus,
-        slides: [
-          "https://www.youtube.com/embed/EcDt-3oPS_g",
-          "/build_your_bus/slide1.png"
-        ],
-        link: [
-          { href: { [OS.Desktop]: "https://storm.realink.io/" }, text: "Acessar" },
-          { href: { [OS.Desktop]: "/quote" }, text: "Contato" }
-        ]
       }
     ]
   }
 ];
+const Links = [{
+  title: "Papa Peixe",
+  id: "papapeixe",
+  description: "Papa Peixe",
+  img: "https://play-lh.googleusercontent.com/NMSXCfnrzvjna2dxiL1dtIkflfM-_F53LKYB3g51B53nE2WRQJCrB5O8IrbaHBAHTBek",
+  links: [
+    { href: { [OS.Desktop]: "https://www.instagram.com/peixepapa/" }, text: "Instagram" },
+    {
+      href: {
+        [OS.Desktop]: "https://play.google.com/store/apps/details?id=com.Realink.Words.PapaPeixe",
+        [OS.iOS]: "https://apps.apple.com/app/id6447073898"
+      },
+      text: "Download"
+    }
+  ]
+}];
 class db {
   getProduct = (productTypeId, productId) => {
     const productsOfType = Products.find((p) => p.id === productTypeId);
@@ -175,25 +244,10 @@ class db {
       content: productsOfType == null ? void 0 : productsOfType.content[parseInt(productId) ?? 0]
     };
   };
-}
-function load({ params }) {
-  const item = new db().getProduct(params.productTypeId, params.productId);
-  if (item == null ? void 0 : item.content) {
-    return item;
-  }
-  throw error(404, "Not found");
+  getLinks = (productId) => {
+    return Links.find((l) => l.id === productId);
+  };
 }
 
-var _page_ts = /*#__PURE__*/Object.freeze({
-  __proto__: null,
-  load: load
-});
-
-const index = 4;
-const component = async () => (await import('./_page.svelte-fa107b09.js')).default;
-const file = '_app/immutable/components/pages/product/_productTypeId_/_productId_/_page.svelte-3b57b6ef.js';
-const imports = ["_app/immutable/components/pages/product/_productTypeId_/_productId_/_page.svelte-3b57b6ef.js","_app/immutable/chunks/index-57f83b02.js","_app/immutable/chunks/preload-helper-aa6bc0ce.js","_app/immutable/chunks/Button-f4cb886a.js","_app/immutable/modules/pages/product/_productTypeId_/_productId_/_page.ts-20877beb.js","_app/immutable/chunks/_page-44d4a284.js","_app/immutable/chunks/OS-34bd786a.js","_app/immutable/chunks/control-03134885.js"];
-const stylesheets = ["_app/immutable/assets/_page-3aba67a1.css","_app/immutable/assets/Button-dcf7fb3b.css"];
-
-export { component, file, imports, index, _page_ts as shared, stylesheets };
-//# sourceMappingURL=4-ab75d56b.js.map
+export { db as d };
+//# sourceMappingURL=index3-5a542ebc.js.map

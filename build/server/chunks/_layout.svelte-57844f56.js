@@ -156,7 +156,7 @@ ${validate_component(Navbar, "Navbar").$$render($$result, {}, {}, {})}
 ${validate_component(BackgroundContainer, "BackgroundContainer").$$render(
     $$result,
     {
-      backdrop: $page.url.pathname.includes("metaverse") || $page.url.pathname.includes("games") || $page.url.pathname.includes("privacy-policy")
+      backdrop: $page.url.pathname.includes("metaverse") || $page.url.pathname.includes("games") || $page.url.pathname.includes("privacy-policy") || $page.url.pathname.includes("/r")
     },
     {},
     {
@@ -170,4 +170,4 @@ ${validate_component(BackgroundContainer, "BackgroundContainer").$$render(
 });
 
 export { Layout as default };
-//# sourceMappingURL=_layout.svelte-55675b80.js.map
+//# sourceMappingURL=_layout.svelte-57844f56.js.map

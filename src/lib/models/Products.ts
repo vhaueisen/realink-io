@@ -5,6 +5,7 @@ import { wings } from '$lib/models/HyperlightWings';
 import { sportvLand } from '$lib/models/SportvLand';
 import type { IProduct } from '$lib/models/IProduct';
 import { OS } from '$lib/Utils/OS';
+import { papaPeixe } from '$lib/models/PapaPeixe';
 
 export const Products: Array<{ id: string; content: IProduct[] }> = [
 	{
@@ -23,6 +24,41 @@ export const Products: Array<{ id: string; content: IProduct[] }> = [
 			},
 			{
 				id: 1,
+				title: 'Papa-Peixe — 2023',
+				img: 'https://play-lh.googleusercontent.com/NMSXCfnrzvjna2dxiL1dtIkflfM-_F53LKYB3g51B53nE2WRQJCrB5O8IrbaHBAHTBek',
+				content: papaPeixe,
+				slides: [
+					'/papa-peixe/slide1.png',
+					'/papa-peixe/slide2.png',
+					'/papa-peixe/slide3.png',
+					'/papa-peixe/slide4.png',
+				],
+				link: [
+					{
+						href: {
+							[OS.Desktop]: 'https://play.google.com/store/apps/details?id=com.Realink.Words.PapaPeixe',
+							[OS.iOS]: 'https://apps.apple.com/app/id6447073898'
+						}, text: "Acessar"
+					},
+					{ href: { [OS.Desktop]: '/quote' }, text: "Contato" },
+				]
+			},
+			{
+				id: 2,
+				title: 'Build your Bus — 2021',
+				img: 'https://realink.io/build_your_bus/icon.png',
+				content: bus,
+				slides: [
+					'https://www.youtube.com/embed/EcDt-3oPS_g',
+					'/build_your_bus/slide1.png',
+				],
+				link: [
+					{ href: { [OS.Desktop]: 'https://storm.realink.io/' }, text: "Acessar" },
+					{ href: { [OS.Desktop]: '/quote' }, text: "Contato" },
+				]
+			},
+			{
+				id: 3,
 				title: 'Colorindo a Cultura Capixaba — 2021',
 				img: 'https://realink.io/colorindo/icon.png',
 				content: colorindo,
@@ -44,7 +80,7 @@ export const Products: Array<{ id: string; content: IProduct[] }> = [
 				]
 			},
 			{
-				id: 2,
+				id: 4,
 				title: 'Boneco Neco — 2021',
 				img: 'https://realink.io/boneco_neco/icon.png',
 				content: neco,
@@ -62,7 +98,7 @@ export const Products: Array<{ id: string; content: IProduct[] }> = [
 				]
 			},
 			{
-				id: 3,
+				id: 5,
 				title: 'Explode Asteroids — 2017',
 				img: 'https://realink.io/explode_asteroids/icon.webp',
 				content: `Embarque em uma jornada pelo espaço e destrua todos os asteroides! Use seu blaster de nave espacial para destruir os asteroides de todas as cores. Ganhe moedas e compre até 12 naves espaciais únicas e 12 projéteis diferentes. Com modo daltônico.`,
@@ -114,20 +150,6 @@ export const Products: Array<{ id: string; content: IProduct[] }> = [
 				],
 				link: [
 					{ href: { [OS.Desktop]: 'https://www.cnmeta.com.br/' }, text: "Acessar" },
-					{ href: { [OS.Desktop]: '/quote' }, text: "Contato" },
-				]
-			},
-			{
-				id: 2,
-				title: 'Build your Bus — 2021',
-				img: 'https://realink.io/build_your_bus/icon.png',
-				content: bus,
-				slides: [
-					'https://www.youtube.com/embed/EcDt-3oPS_g',
-					'/build_your_bus/slide1.png',
-				],
-				link: [
-					{ href: { [OS.Desktop]: 'https://storm.realink.io/' }, text: "Acessar" },
 					{ href: { [OS.Desktop]: '/quote' }, text: "Contato" },
 				]
 			},
