@@ -1,38 +1,19 @@
 {
-<<<<<<< Updated upstream
-  "node_modules/@fontsource/overpass/files/overpass-cyrillic-ext-400-normal.woff2": {
-    "file": "_app/immutable/assets/overpass-cyrillic-ext-400-normal-1b1b532c.woff2",
-    "src": "node_modules/@fontsource/overpass/files/overpass-cyrillic-ext-400-normal.woff2"
-=======
-  "node_modules/@fontsource/overpass/files/overpass-latin-400-normal.woff2": {
-    "file": "_app/immutable/assets/overpass-latin-400-normal-b6f01e18.woff2",
-    "src": "node_modules/@fontsource/overpass/files/overpass-latin-400-normal.woff2"
->>>>>>> Stashed changes
-  },
   "node_modules/@fontsource/overpass/files/overpass-cyrillic-400-normal.woff2": {
     "file": "_app/immutable/assets/overpass-cyrillic-400-normal-cd53305c.woff2",
     "src": "node_modules/@fontsource/overpass/files/overpass-cyrillic-400-normal.woff2"
   },
-<<<<<<< Updated upstream
-=======
-  "node_modules/@fontsource/lato/files/lato-latin-400-normal.woff2": {
-    "file": "_app/immutable/assets/lato-latin-400-normal-918b7dc3.woff2",
-    "src": "node_modules/@fontsource/lato/files/lato-latin-400-normal.woff2"
-  },
->>>>>>> Stashed changes
-  "node_modules/@fontsource/overpass/files/overpass-latin-ext-400-normal.woff2": {
-    "file": "_app/immutable/assets/overpass-latin-ext-400-normal-10424c70.woff2",
-    "src": "node_modules/@fontsource/overpass/files/overpass-latin-ext-400-normal.woff2"
-  },
-<<<<<<< Updated upstream
-  "node_modules/@fontsource/overpass/files/overpass-latin-400-normal.woff2": {
-    "file": "_app/immutable/assets/overpass-latin-400-normal-b6f01e18.woff2",
-    "src": "node_modules/@fontsource/overpass/files/overpass-latin-400-normal.woff2"
-=======
   "node_modules/@fontsource/overpass/files/overpass-cyrillic-ext-400-normal.woff2": {
     "file": "_app/immutable/assets/overpass-cyrillic-ext-400-normal-1b1b532c.woff2",
     "src": "node_modules/@fontsource/overpass/files/overpass-cyrillic-ext-400-normal.woff2"
->>>>>>> Stashed changes
+  },
+  "node_modules/@fontsource/overpass/files/overpass-latin-400-normal.woff2": {
+    "file": "_app/immutable/assets/overpass-latin-400-normal-b6f01e18.woff2",
+    "src": "node_modules/@fontsource/overpass/files/overpass-latin-400-normal.woff2"
+  },
+  "node_modules/@fontsource/overpass/files/overpass-latin-ext-400-normal.woff2": {
+    "file": "_app/immutable/assets/overpass-latin-ext-400-normal-10424c70.woff2",
+    "src": "node_modules/@fontsource/overpass/files/overpass-latin-ext-400-normal.woff2"
   },
   "node_modules/@fontsource/lato/files/lato-latin-ext-400-normal.woff2": {
     "file": "_app/immutable/assets/lato-latin-ext-400-normal-1c2fc265.woff2",
@@ -51,21 +32,13 @@
     "src": "node_modules/@fontsource/lato/files/lato-all-400-normal.woff"
   },
   "node_modules/@sveltejs/kit/src/runtime/client/start.js": {
-<<<<<<< Updated upstream
-    "file": "_app/immutable/start-989c6178.js",
-=======
-    "file": "_app/immutable/start-76ca1f57.js",
->>>>>>> Stashed changes
+    "file": "_app/immutable/start-a440ec22.js",
     "src": "node_modules/@sveltejs/kit/src/runtime/client/start.js",
     "isEntry": true,
     "imports": [
       "_preload-helper-aa6bc0ce.js",
       "_index-57f83b02.js",
-<<<<<<< Updated upstream
-      "_singletons-38cf2d80.js",
-=======
-      "_singletons-46b63ba4.js",
->>>>>>> Stashed changes
+      "_singletons-3ce113de.js",
       "_control-03134885.js"
     ],
     "dynamicImports": [
@@ -79,20 +52,12 @@
     ]
   },
   "src/routes/+layout.svelte": {
-<<<<<<< Updated upstream
-    "file": "_app/immutable/components/pages/_layout.svelte-952028e8.js",
-=======
-    "file": "_app/immutable/components/pages/_layout.svelte-95fd1ee5.js",
->>>>>>> Stashed changes
+    "file": "_app/immutable/components/pages/_layout.svelte-5c7a3775.js",
     "src": "src/routes/+layout.svelte",
     "isEntry": true,
     "imports": [
       "_index-57f83b02.js",
-<<<<<<< Updated upstream
-      "_singletons-38cf2d80.js"
-=======
-      "_singletons-46b63ba4.js"
->>>>>>> Stashed changes
+      "_singletons-3ce113de.js"
     ],
     "css": [
       "_app/immutable/assets/_layout-5e004416.css"
@@ -198,13 +163,8 @@
       "__page-313e88e8.js"
     ]
   },
-<<<<<<< Updated upstream
-  "_singletons-38cf2d80.js": {
-    "file": "_app/immutable/chunks/singletons-38cf2d80.js",
-=======
-  "_singletons-46b63ba4.js": {
-    "file": "_app/immutable/chunks/singletons-46b63ba4.js",
->>>>>>> Stashed changes
+  "_singletons-3ce113de.js": {
+    "file": "_app/immutable/chunks/singletons-3ce113de.js",
     "imports": [
       "_index-57f83b02.js"
     ]
@@ -250,11 +210,7 @@
     ]
   },
   ".svelte-kit/generated/nodes/0.js": {
-<<<<<<< Updated upstream
-    "file": "_app/immutable/chunks/0-ee555e11.js",
-=======
-    "file": "_app/immutable/chunks/0-9852d6f3.js",
->>>>>>> Stashed changes
+    "file": "_app/immutable/chunks/0-d189ee2c.js",
     "src": ".svelte-kit/generated/nodes/0.js",
     "isDynamicEntry": true,
     "imports": [
@@ -323,31 +279,24 @@
     "file": "_app/immutable/assets/_layout-5e004416.css",
     "src": "src/routes/+layout.css"
   },
-  "src/routes/quote/+page.css": {
-    "file": "_app/immutable/assets/_page-ba62d41b.css",
-    "src": "src/routes/quote/+page.css"
-  },
-  "src/routes/+error.css": {
-    "file": "_app/immutable/assets/_error-971a3147.css",
-    "src": "src/routes/+error.css"
+  "src/routes/r/[productId]/+page.css": {
+    "file": "_app/immutable/assets/_page-1b636b39.css",
+    "src": "src/routes/r/[productId]/+page.css"
   },
   "src/routes/quote/+page.css": {
     "file": "_app/immutable/assets/_page-ba62d41b.css",
     "src": "src/routes/quote/+page.css"
+  },
+  "src/routes/product/[productTypeId]/[productId]/+page.css": {
+    "file": "_app/immutable/assets/_page-3aba67a1.css",
+    "src": "src/routes/product/[productTypeId]/[productId]/+page.css"
   },
   "Button.css": {
     "file": "_app/immutable/assets/Button-dcf7fb3b.css",
     "src": "Button.css"
   },
-  "src/routes/product/[productTypeId]/[productId]/+page.css": {
-    "file": "_app/immutable/assets/_page-3aba67a1.css",
-    "src": "src/routes/product/[productTypeId]/[productId]/+page.css"
-<<<<<<< Updated upstream
-=======
-  },
-  "src/routes/r/[productId]/+page.css": {
-    "file": "_app/immutable/assets/_page-1b636b39.css",
-    "src": "src/routes/r/[productId]/+page.css"
->>>>>>> Stashed changes
+  "src/routes/+error.css": {
+    "file": "_app/immutable/assets/_error-971a3147.css",
+    "src": "src/routes/+error.css"
   }
 }
