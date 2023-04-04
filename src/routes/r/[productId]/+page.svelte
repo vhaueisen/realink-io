@@ -55,9 +55,4 @@
     justify-content: flex-start;
     padding: 1em;
   }
-
-  :global(a) {
-    margin: 0.5em;
-    width: 50em;
-  }
 </style>

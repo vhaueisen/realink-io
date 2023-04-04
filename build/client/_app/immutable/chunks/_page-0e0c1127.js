@@ -1,0 +1,1 @@
+import{d as e,e as r}from"./index-85013bef.js";function n({params:t}){const o=new e().getProduct(t.productTypeId,t.productId);if(o!=null&&o.content)return o;throw r(404,"Not found")}const c=Object.freeze(Object.defineProperty({__proto__:null,load:n},Symbol.toStringTag,{value:"Module"}));export{c as _,n as l};

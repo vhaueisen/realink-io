@@ -223,7 +223,7 @@ const Products = [
 const Links = [{
   title: "Papa Peixe",
   id: "papapeixe",
-  description: "Papa Peixe",
+  description: "Papa-Peixe \xE9 um jogo eletr\xF4nico do g\xEAnero puzzle casual, focado na cultura do Mato Grosso, que possui dois tipos de jogabilidade: palavras cruzadas e ca\xE7a palavras.",
   img: "https://play-lh.googleusercontent.com/NMSXCfnrzvjna2dxiL1dtIkflfM-_F53LKYB3g51B53nE2WRQJCrB5O8IrbaHBAHTBek",
   links: [
     { href: { [OS.Desktop]: "https://www.instagram.com/peixepapa/" }, text: "Instagram" },
@@ -250,4 +250,4 @@ class db {
 }
 
 export { db as d };
-//# sourceMappingURL=index3-5a542ebc.js.map
+//# sourceMappingURL=index3-19c5271f.js.map
