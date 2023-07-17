@@ -127,6 +127,19 @@ section h2 {
   margin-top: 2em;
 }
 
+h2 a {
+  text-decoration: underline;
+}
+
+h2 a:hover {
+  text-decoration: none;
+}
+
+.spacer {
+  height: 2em;
+  width: 1em;
+}
+
 @media (max-width: 1280px) {
   section {
     padding: 1em 2em 2em 2em;

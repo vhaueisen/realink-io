@@ -7,21 +7,21 @@
     "file": "_app/immutable/assets/overpass-cyrillic-400-normal-cd53305c.woff2",
     "src": "node_modules/@fontsource/overpass/files/overpass-cyrillic-400-normal.woff2"
   },
-  "node_modules/@fontsource/overpass/files/overpass-latin-ext-400-normal.woff2": {
-    "file": "_app/immutable/assets/overpass-latin-ext-400-normal-10424c70.woff2",
-    "src": "node_modules/@fontsource/overpass/files/overpass-latin-ext-400-normal.woff2"
-  },
-  "node_modules/@fontsource/overpass/files/overpass-latin-400-normal.woff2": {
-    "file": "_app/immutable/assets/overpass-latin-400-normal-b6f01e18.woff2",
-    "src": "node_modules/@fontsource/overpass/files/overpass-latin-400-normal.woff2"
-  },
   "node_modules/@fontsource/lato/files/lato-latin-ext-400-normal.woff2": {
     "file": "_app/immutable/assets/lato-latin-ext-400-normal-1c2fc265.woff2",
     "src": "node_modules/@fontsource/lato/files/lato-latin-ext-400-normal.woff2"
   },
+  "node_modules/@fontsource/overpass/files/overpass-latin-ext-400-normal.woff2": {
+    "file": "_app/immutable/assets/overpass-latin-ext-400-normal-10424c70.woff2",
+    "src": "node_modules/@fontsource/overpass/files/overpass-latin-ext-400-normal.woff2"
+  },
   "node_modules/@fontsource/lato/files/lato-latin-400-normal.woff2": {
     "file": "_app/immutable/assets/lato-latin-400-normal-918b7dc3.woff2",
     "src": "node_modules/@fontsource/lato/files/lato-latin-400-normal.woff2"
+  },
+  "node_modules/@fontsource/overpass/files/overpass-latin-400-normal.woff2": {
+    "file": "_app/immutable/assets/overpass-latin-400-normal-b6f01e18.woff2",
+    "src": "node_modules/@fontsource/overpass/files/overpass-latin-400-normal.woff2"
   },
   "node_modules/@fontsource/overpass/files/overpass-all-400-normal.woff": {
     "file": "_app/immutable/assets/overpass-all-400-normal-9a2f5f37.woff",
@@ -32,13 +32,13 @@
     "src": "node_modules/@fontsource/lato/files/lato-all-400-normal.woff"
   },
   "node_modules/@sveltejs/kit/src/runtime/client/start.js": {
-    "file": "_app/immutable/start-fc5ee06e.js",
+    "file": "_app/immutable/start-0fe9ba62.js",
     "src": "node_modules/@sveltejs/kit/src/runtime/client/start.js",
     "isEntry": true,
     "imports": [
       "_preload-helper-aa6bc0ce.js",
       "_index-57f83b02.js",
-      "_singletons-26d06f95.js",
+      "_singletons-6634870a.js",
       "_control-03134885.js"
     ],
     "dynamicImports": [
@@ -48,19 +48,24 @@
       ".svelte-kit/generated/nodes/3.js",
       ".svelte-kit/generated/nodes/4.js",
       ".svelte-kit/generated/nodes/5.js",
-      ".svelte-kit/generated/nodes/6.js"
+      ".svelte-kit/generated/nodes/6.js",
+      ".svelte-kit/generated/nodes/7.js",
+      ".svelte-kit/generated/nodes/8.js",
+      ".svelte-kit/generated/nodes/9.js",
+      ".svelte-kit/generated/nodes/10.js",
+      ".svelte-kit/generated/nodes/11.js"
     ]
   },
   "src/routes/+layout.svelte": {
-    "file": "_app/immutable/components/pages/_layout.svelte-c4f12e78.js",
+    "file": "_app/immutable/components/pages/_layout.svelte-bc96f9d6.js",
     "src": "src/routes/+layout.svelte",
     "isEntry": true,
     "imports": [
       "_index-57f83b02.js",
-      "_singletons-26d06f95.js"
+      "_singletons-6634870a.js"
     ],
     "css": [
-      "_app/immutable/assets/_layout-5e004416.css"
+      "_app/immutable/assets/_layout-277b8348.css"
     ],
     "assets": [
       "_app/immutable/assets/overpass-cyrillic-ext-400-normal-1b1b532c.woff2",
@@ -93,9 +98,49 @@
       "_index-57f83b02.js"
     ]
   },
+  "src/routes/content/culinaria-capixaba/moqueca/+page.svelte": {
+    "file": "_app/immutable/components/pages/content/culinaria-capixaba/moqueca/_page.svelte-8ecc4293.js",
+    "src": "src/routes/content/culinaria-capixaba/moqueca/+page.svelte",
+    "isEntry": true,
+    "imports": [
+      "_index-57f83b02.js"
+    ]
+  },
+  "src/routes/content/culinaria-capixaba/torta/+page.svelte": {
+    "file": "_app/immutable/components/pages/content/culinaria-capixaba/torta/_page.svelte-893685a7.js",
+    "src": "src/routes/content/culinaria-capixaba/torta/+page.svelte",
+    "isEntry": true,
+    "imports": [
+      "_index-57f83b02.js"
+    ]
+  },
+  "src/routes/privacy-policy/culinaria-capixaba/+page.svelte": {
+    "file": "_app/immutable/components/pages/privacy-policy/culinaria-capixaba/_page.svelte-0f06dbeb.js",
+    "src": "src/routes/privacy-policy/culinaria-capixaba/+page.svelte",
+    "isEntry": true,
+    "imports": [
+      "_index-57f83b02.js"
+    ]
+  },
+  "src/routes/privacy-policy/letras-e-sons/+page.svelte": {
+    "file": "_app/immutable/components/pages/privacy-policy/letras-e-sons/_page.svelte-a7cf86f3.js",
+    "src": "src/routes/privacy-policy/letras-e-sons/+page.svelte",
+    "isEntry": true,
+    "imports": [
+      "_index-57f83b02.js"
+    ]
+  },
   "src/routes/privacy-policy/papa-peixe/+page.svelte": {
     "file": "_app/immutable/components/pages/privacy-policy/papa-peixe/_page.svelte-0b5329a7.js",
     "src": "src/routes/privacy-policy/papa-peixe/+page.svelte",
+    "isEntry": true,
+    "imports": [
+      "_index-57f83b02.js"
+    ]
+  },
+  "src/routes/privacy-policy/queimados/+page.svelte": {
+    "file": "_app/immutable/components/pages/privacy-policy/queimados/_page.svelte-483513c8.js",
+    "src": "src/routes/privacy-policy/queimados/+page.svelte",
     "isEntry": true,
     "imports": [
       "_index-57f83b02.js"
@@ -163,8 +208,8 @@
       "__page-909483d1.js"
     ]
   },
-  "_singletons-26d06f95.js": {
-    "file": "_app/immutable/chunks/singletons-26d06f95.js",
+  "_singletons-6634870a.js": {
+    "file": "_app/immutable/chunks/singletons-6634870a.js",
     "imports": [
       "_index-57f83b02.js"
     ]
@@ -210,7 +255,7 @@
     ]
   },
   ".svelte-kit/generated/nodes/0.js": {
-    "file": "_app/immutable/chunks/0-e053e197.js",
+    "file": "_app/immutable/chunks/0-b2ad8ec9.js",
     "src": ".svelte-kit/generated/nodes/0.js",
     "isDynamicEntry": true,
     "imports": [
@@ -234,33 +279,73 @@
     ]
   },
   ".svelte-kit/generated/nodes/3.js": {
-    "file": "_app/immutable/chunks/3-e6e4a2e8.js",
+    "file": "_app/immutable/chunks/3-a126d57f.js",
     "src": ".svelte-kit/generated/nodes/3.js",
+    "isDynamicEntry": true,
+    "imports": [
+      "src/routes/content/culinaria-capixaba/moqueca/+page.svelte"
+    ]
+  },
+  ".svelte-kit/generated/nodes/4.js": {
+    "file": "_app/immutable/chunks/4-5711c38d.js",
+    "src": ".svelte-kit/generated/nodes/4.js",
+    "isDynamicEntry": true,
+    "imports": [
+      "src/routes/content/culinaria-capixaba/torta/+page.svelte"
+    ]
+  },
+  ".svelte-kit/generated/nodes/5.js": {
+    "file": "_app/immutable/chunks/5-9b5e3f48.js",
+    "src": ".svelte-kit/generated/nodes/5.js",
+    "isDynamicEntry": true,
+    "imports": [
+      "src/routes/privacy-policy/culinaria-capixaba/+page.svelte"
+    ]
+  },
+  ".svelte-kit/generated/nodes/6.js": {
+    "file": "_app/immutable/chunks/6-c59c1c8e.js",
+    "src": ".svelte-kit/generated/nodes/6.js",
+    "isDynamicEntry": true,
+    "imports": [
+      "src/routes/privacy-policy/letras-e-sons/+page.svelte"
+    ]
+  },
+  ".svelte-kit/generated/nodes/7.js": {
+    "file": "_app/immutable/chunks/7-c9972b9e.js",
+    "src": ".svelte-kit/generated/nodes/7.js",
     "isDynamicEntry": true,
     "imports": [
       "src/routes/privacy-policy/papa-peixe/+page.svelte"
     ]
   },
-  ".svelte-kit/generated/nodes/4.js": {
-    "file": "_app/immutable/chunks/4-60385ab5.js",
-    "src": ".svelte-kit/generated/nodes/4.js",
+  ".svelte-kit/generated/nodes/8.js": {
+    "file": "_app/immutable/chunks/8-1c578d4c.js",
+    "src": ".svelte-kit/generated/nodes/8.js",
+    "isDynamicEntry": true,
+    "imports": [
+      "src/routes/privacy-policy/queimados/+page.svelte"
+    ]
+  },
+  ".svelte-kit/generated/nodes/9.js": {
+    "file": "_app/immutable/chunks/9-863453be.js",
+    "src": ".svelte-kit/generated/nodes/9.js",
     "isDynamicEntry": true,
     "imports": [
       "__page-0e0c1127.js",
       "src/routes/product/[productTypeId]/[productId]/+page.svelte"
     ]
   },
-  ".svelte-kit/generated/nodes/5.js": {
-    "file": "_app/immutable/chunks/5-087786c9.js",
-    "src": ".svelte-kit/generated/nodes/5.js",
+  ".svelte-kit/generated/nodes/10.js": {
+    "file": "_app/immutable/chunks/10-bb8d844e.js",
+    "src": ".svelte-kit/generated/nodes/10.js",
     "isDynamicEntry": true,
     "imports": [
       "src/routes/quote/+page.svelte"
     ]
   },
-  ".svelte-kit/generated/nodes/6.js": {
-    "file": "_app/immutable/chunks/6-8400d3c9.js",
-    "src": ".svelte-kit/generated/nodes/6.js",
+  ".svelte-kit/generated/nodes/11.js": {
+    "file": "_app/immutable/chunks/11-2255d411.js",
+    "src": ".svelte-kit/generated/nodes/11.js",
     "isDynamicEntry": true,
     "imports": [
       "__page-909483d1.js",
@@ -276,27 +361,27 @@
     ]
   },
   "src/routes/+layout.css": {
-    "file": "_app/immutable/assets/_layout-5e004416.css",
+    "file": "_app/immutable/assets/_layout-277b8348.css",
     "src": "src/routes/+layout.css"
   },
   "src/routes/+error.css": {
     "file": "_app/immutable/assets/_error-971a3147.css",
     "src": "src/routes/+error.css"
   },
-  "Button.css": {
-    "file": "_app/immutable/assets/Button-dcf7fb3b.css",
-    "src": "Button.css"
-  },
-  "src/routes/quote/+page.css": {
-    "file": "_app/immutable/assets/_page-ba62d41b.css",
-    "src": "src/routes/quote/+page.css"
+  "src/routes/product/[productTypeId]/[productId]/+page.css": {
+    "file": "_app/immutable/assets/_page-3aba67a1.css",
+    "src": "src/routes/product/[productTypeId]/[productId]/+page.css"
   },
   "src/routes/r/[productId]/+page.css": {
     "file": "_app/immutable/assets/_page-df5406f6.css",
     "src": "src/routes/r/[productId]/+page.css"
   },
-  "src/routes/product/[productTypeId]/[productId]/+page.css": {
-    "file": "_app/immutable/assets/_page-3aba67a1.css",
-    "src": "src/routes/product/[productTypeId]/[productId]/+page.css"
+  "src/routes/quote/+page.css": {
+    "file": "_app/immutable/assets/_page-ba62d41b.css",
+    "src": "src/routes/quote/+page.css"
+  },
+  "Button.css": {
+    "file": "_app/immutable/assets/Button-dcf7fb3b.css",
+    "src": "Button.css"
   }
 }
