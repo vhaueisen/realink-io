@@ -220,22 +220,69 @@ const Products = [
     ]
   }
 ];
-const Links = [{
-  title: "Papa Peixe",
-  id: "papapeixe",
-  description: "Papa-Peixe \xE9 um jogo eletr\xF4nico do g\xEAnero puzzle casual, focado na cultura do Mato Grosso, que possui dois tipos de jogabilidade: palavras cruzadas e ca\xE7a palavras.",
-  img: "https://play-lh.googleusercontent.com/NMSXCfnrzvjna2dxiL1dtIkflfM-_F53LKYB3g51B53nE2WRQJCrB5O8IrbaHBAHTBek",
-  links: [
-    { href: { [OS.Desktop]: "https://www.instagram.com/peixepapa/" }, text: "Instagram" },
-    {
-      href: {
-        [OS.Desktop]: "https://play.google.com/store/apps/details?id=com.Realink.Words.PapaPeixe",
-        [OS.iOS]: "https://apps.apple.com/app/id6447073898"
-      },
-      text: "Download"
-    }
-  ]
-}];
+const Links = [
+  {
+    title: "Papa Peixe",
+    id: "papapeixe",
+    description: "Papa-Peixe \xE9 um jogo eletr\xF4nico do g\xEAnero puzzle casual, focado na cultura do Mato Grosso, que possui dois tipos de jogabilidade: palavras cruzadas e ca\xE7a palavras.",
+    img: "https://play-lh.googleusercontent.com/NMSXCfnrzvjna2dxiL1dtIkflfM-_F53LKYB3g51B53nE2WRQJCrB5O8IrbaHBAHTBek",
+    links: [
+      { href: { [OS.Desktop]: "https://www.instagram.com/peixepapa/" }, text: "Instagram" },
+      {
+        href: {
+          [OS.Desktop]: "https://play.google.com/store/apps/details?id=com.Realink.Words.PapaPeixe",
+          [OS.iOS]: "https://apps.apple.com/app/id6447073898"
+        },
+        text: "Download"
+      }
+    ]
+  },
+  {
+    title: "Letras e Sons da Natureza",
+    id: "letrasesonsdanatureza",
+    description: "Jogo educacional que promove alfabetiza\xE7\xE3o e letramento com temas socioculturais.",
+    img: "https://play-lh.googleusercontent.com/_-i5xKjQO4fDwmctRdjGHI7ta-rkpHkSrNztYHNFCBMfuz_55jTcK1q1PcNJ2h2BGrI=w240-h480-rw",
+    links: [
+      { href: { [OS.Desktop]: "https://www.instagram.com/letrasesons_/" }, text: "Instagram" },
+      {
+        href: {
+          [OS.Desktop]: "https://play.google.com/store/apps/details?id=com.Realink.Quiz.AlefBet",
+          [OS.iOS]: "https://apps.apple.com/br/app/letras-e-sons-da-natureza/id6452470798"
+        },
+        text: "Download"
+      }
+    ]
+  },
+  {
+    title: "Culin\xE1ria Capixaba",
+    id: "culinariacapixaba",
+    description: "Explore a culin\xE1ria capixaba de forma inovadora com o aplicativo interativo que combina tradi\xE7\xE3o e tecnologia, apresentando receitas aut\xEAnticas atrav\xE9s da realidade aumentada.",
+    img: "https://play-lh.googleusercontent.com/xfTxq3DxwNJlhjFI5dTn83LYDFbjRAm-pIhAEdlJBHhYBiDUHpILF0FFNQbs1VH9KM8=w240-h480-rw",
+    links: [
+      {
+        href: {
+          [OS.Desktop]: "https://play.google.com/store/apps/details?id=com.Realink.Persona.CulinariaCapixaba",
+          [OS.iOS]: "https://apps.apple.com/br/app/culin%C3%A1ria-capixaba/id6462795816"
+        },
+        text: "Download"
+      }
+    ]
+  },
+  {
+    title: "Revolta de Queimados",
+    id: "revoltadequeimados",
+    description: "Conhe\xE7a Chico Prego, l\xEDder da Revolta de Queimados, em 3D e realidade aumentada.",
+    img: "https://play-lh.googleusercontent.com/YIBMkLnc-W90brlLZWFvJuI8IP1sshL0Ir3AJoeVEYHU40v8rYZLNBb5iGjVMt1MvFeW=w240-h480-rw",
+    links: [
+      {
+        href: {
+          [OS.Desktop]: "https://play.google.com/store/apps/details?id=com.Realink.Persona.RevoltaDeQueimados"
+        },
+        text: "Download"
+      }
+    ]
+  }
+];
 class db {
   getProduct = (productTypeId, productId) => {
     const productsOfType = Products.find((p) => p.id === productTypeId);
@@ -250,4 +297,4 @@ class db {
 }
 
 export { db as d };
-//# sourceMappingURL=index3-19c5271f.js.map
+//# sourceMappingURL=index3-62662476.js.map

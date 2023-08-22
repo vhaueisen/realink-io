@@ -30,7 +30,7 @@
   <article>
     <section>
       <img src={data?.img} alt={data?.title} class="round-img" />
-      <h1>{data?.title}</h1>
+      <h1 class="center">{data?.title}</h1>
       {#each data?.links as link}
         <p>
           <Button type="a" href={resolve(link)}>{link.text}</Button>
@@ -54,5 +54,9 @@
     align-items: center;
     justify-content: flex-start;
     padding: 1em;
+  }
+
+  .center {
+    text-align: center;
   }
 </style>
