@@ -52,14 +52,13 @@ export const Links = [
         description: "Conheça Chico Prego, líder da Revolta de Queimados, em 3D e realidade aumentada.",
         img: "https://play-lh.googleusercontent.com/YIBMkLnc-W90brlLZWFvJuI8IP1sshL0Ir3AJoeVEYHU40v8rYZLNBb5iGjVMt1MvFeW=w240-h480-rw",
         links: [
-            // { href: { [OS.Desktop]: 'https://www.instagram.com/peixepapa/' }, text: "Instagram" },
+            { href: { [OS.Desktop]: 'https://www.instagram.com/capixaba.culinaria/' }, text: "Instagram" },
             {
                 href: {
                     [OS.Desktop]: 'https://play.google.com/store/apps/details?id=com.Realink.Persona.RevoltaDeQueimados',
-                    // [OS.iOS]: 'https://apps.apple.com/app/id6447073898'
+                    [OS.iOS]: 'https://apps.apple.com/br/app/revolta-de-queimados/id6462795574'
                 }, text: "Download"
             }
         ],
     },
-
 ]
