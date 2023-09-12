@@ -3,9 +3,9 @@ const manifest = {
 	assets: new Set(["background/Dust1.png","background/Dust2.png","background/primary-background.jpg","boneco_neco/icon.png","boneco_neco/slide1.png","build_your_bus/icon.png","build_your_bus/slide1.png","cn_meta/slide1.jpeg","cn_meta/slide2.jpeg","cn_meta/slide3.jpeg","cn_meta/slide4.jpeg","colorindo/icon.png","colorindo/slide1.png","explode_asteroids/icon.webp","explode_asteroids/slide1.png","favicon.png","hyperlight_wings/slide1.png","logo_preto_v.png","papa-peixe/slide1.png","papa-peixe/slide2.png","papa-peixe/slide3.png","papa-peixe/slide4.png","robots.txt","rogue-icon.png","rogue-line.png"]),
 	mimeTypes: {".png":"image/png",".jpg":"image/jpeg",".jpeg":"image/jpeg",".webp":"image/webp",".txt":"text/plain"},
 	_: {
-		entry: {"file":"_app/immutable/start-31b13060.js","imports":["_app/immutable/start-31b13060.js","_app/immutable/chunks/preload-helper-aa6bc0ce.js","_app/immutable/chunks/index-57f83b02.js","_app/immutable/chunks/singletons-a171173d.js","_app/immutable/chunks/control-03134885.js"],"stylesheets":[]},
+		entry: {"file":"_app/immutable/start-b7f41fce.js","imports":["_app/immutable/start-b7f41fce.js","_app/immutable/chunks/preload-helper-aa6bc0ce.js","_app/immutable/chunks/index-57f83b02.js","_app/immutable/chunks/singletons-11d68f60.js","_app/immutable/chunks/control-03134885.js"],"stylesheets":[]},
 		nodes: [
-			() => import('./chunks/0-b683be91.js'),
+			() => import('./chunks/0-600e8ebd.js'),
 			() => import('./chunks/1-f9b4b603.js'),
 			() => import('./chunks/2-dddfd5cf.js'),
 			() => import('./chunks/3-47277f01.js'),
@@ -14,9 +14,9 @@ const manifest = {
 			() => import('./chunks/6-8ccd6d12.js'),
 			() => import('./chunks/7-bb847b65.js'),
 			() => import('./chunks/8-550021e0.js'),
-			() => import('./chunks/9-8a0a5965.js'),
+			() => import('./chunks/9-e2eaeead.js'),
 			() => import('./chunks/10-03c66882.js'),
-			() => import('./chunks/11-eaa47906.js')
+			() => import('./chunks/11-d549d5f7.js')
 		],
 		routes: [
 			{

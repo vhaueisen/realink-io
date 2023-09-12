@@ -259,6 +259,7 @@ const Links = [
     description: "Explore a culin\xE1ria capixaba de forma inovadora com o aplicativo interativo que combina tradi\xE7\xE3o e tecnologia, apresentando receitas aut\xEAnticas atrav\xE9s da realidade aumentada.",
     img: "https://play-lh.googleusercontent.com/xfTxq3DxwNJlhjFI5dTn83LYDFbjRAm-pIhAEdlJBHhYBiDUHpILF0FFNQbs1VH9KM8=w240-h480-rw",
     links: [
+      { href: { [OS.Desktop]: "https://www.instagram.com/capixaba.culinaria/" }, text: "Instagram" },
       {
         href: {
           [OS.Desktop]: "https://play.google.com/store/apps/details?id=com.Realink.Persona.CulinariaCapixaba",
@@ -274,7 +275,6 @@ const Links = [
     description: "Conhe\xE7a Chico Prego, l\xEDder da Revolta de Queimados, em 3D e realidade aumentada.",
     img: "https://play-lh.googleusercontent.com/YIBMkLnc-W90brlLZWFvJuI8IP1sshL0Ir3AJoeVEYHU40v8rYZLNBb5iGjVMt1MvFeW=w240-h480-rw",
     links: [
-      { href: { [OS.Desktop]: "https://www.instagram.com/capixaba.culinaria/" }, text: "Instagram" },
       {
         href: {
           [OS.Desktop]: "https://play.google.com/store/apps/details?id=com.Realink.Persona.RevoltaDeQueimados",
@@ -299,4 +299,4 @@ class db {
 }
 
 export { db as d };
-//# sourceMappingURL=index3-b4a878be.js.map
+//# sourceMappingURL=index3-e2e9df69.js.map

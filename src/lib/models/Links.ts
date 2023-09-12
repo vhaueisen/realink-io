@@ -37,7 +37,7 @@ export const Links = [
         description: "Explore a culinária capixaba de forma inovadora com o aplicativo interativo que combina tradição e tecnologia, apresentando receitas autênticas através da realidade aumentada.",
         img: "https://play-lh.googleusercontent.com/xfTxq3DxwNJlhjFI5dTn83LYDFbjRAm-pIhAEdlJBHhYBiDUHpILF0FFNQbs1VH9KM8=w240-h480-rw",
         links: [
-            // { href: { [OS.Desktop]: 'https://www.instagram.com/peixepapa/' }, text: "Instagram" },
+            { href: { [OS.Desktop]: 'https://www.instagram.com/capixaba.culinaria/' }, text: "Instagram" },
             {
                 href: {
                     [OS.Desktop]: 'https://play.google.com/store/apps/details?id=com.Realink.Persona.CulinariaCapixaba',
@@ -52,7 +52,7 @@ export const Links = [
         description: "Conheça Chico Prego, líder da Revolta de Queimados, em 3D e realidade aumentada.",
         img: "https://play-lh.googleusercontent.com/YIBMkLnc-W90brlLZWFvJuI8IP1sshL0Ir3AJoeVEYHU40v8rYZLNBb5iGjVMt1MvFeW=w240-h480-rw",
         links: [
-            { href: { [OS.Desktop]: 'https://www.instagram.com/capixaba.culinaria/' }, text: "Instagram" },
+            // { href: { [OS.Desktop]: 'https://www.instagram.com/peixepapa/' }, text: "Instagram" },
             {
                 href: {
                     [OS.Desktop]: 'https://play.google.com/store/apps/details?id=com.Realink.Persona.RevoltaDeQueimados',
