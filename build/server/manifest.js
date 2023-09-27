@@ -1,22 +1,22 @@
 const manifest = {
 	appDir: "_app",
-	assets: new Set(["background/Dust1.png","background/Dust2.png","background/primary-background.jpg","boneco_neco/icon.png","boneco_neco/slide1.png","build_your_bus/icon.png","build_your_bus/slide1.png","cn_meta/slide1.jpeg","cn_meta/slide2.jpeg","cn_meta/slide3.jpeg","cn_meta/slide4.jpeg","colorindo/icon.png","colorindo/slide1.png","explode_asteroids/icon.webp","explode_asteroids/slide1.png","favicon.png","hyperlight_wings/slide1.png","logo_preto_v.png","papa-peixe/slide1.png","papa-peixe/slide2.png","papa-peixe/slide3.png","papa-peixe/slide4.png","robots.txt","rogue-icon.png","rogue-line.png"]),
-	mimeTypes: {".png":"image/png",".jpg":"image/jpeg",".jpeg":"image/jpeg",".webp":"image/webp",".txt":"text/plain"},
+	assets: new Set(["background/background.mp4","background/Dust1.png","background/Dust2.png","background/primary-background.jpg","boneco_neco/icon.png","boneco_neco/slide1.png","build_your_bus/icon.png","build_your_bus/slide1.png","cn_meta/slide1.jpeg","cn_meta/slide2.jpeg","cn_meta/slide3.jpeg","cn_meta/slide4.jpeg","colorindo/icon.png","colorindo/slide1.png","explode_asteroids/icon.webp","explode_asteroids/slide1.png","favicon.png","hyperlight_wings/slide1.png","logo_preto_v.png","papa-peixe/slide1.png","papa-peixe/slide2.png","papa-peixe/slide3.png","papa-peixe/slide4.png","robots.txt","rogue-icon.png","rogue-line.png"]),
+	mimeTypes: {".mp4":"video/mp4",".png":"image/png",".jpg":"image/jpeg",".jpeg":"image/jpeg",".webp":"image/webp",".txt":"text/plain"},
 	_: {
-		entry: {"file":"_app/immutable/start-b7f41fce.js","imports":["_app/immutable/start-b7f41fce.js","_app/immutable/chunks/preload-helper-aa6bc0ce.js","_app/immutable/chunks/index-57f83b02.js","_app/immutable/chunks/singletons-11d68f60.js","_app/immutable/chunks/control-03134885.js"],"stylesheets":[]},
+		entry: {"file":"_app/immutable/start-c74f874a.js","imports":["_app/immutable/start-c74f874a.js","_app/immutable/chunks/preload-helper-aa6bc0ce.js","_app/immutable/chunks/index-9f90c359.js","_app/immutable/chunks/singletons-a529bf80.js","_app/immutable/chunks/control-03134885.js"],"stylesheets":[]},
 		nodes: [
-			() => import('./chunks/0-600e8ebd.js'),
-			() => import('./chunks/1-f9b4b603.js'),
-			() => import('./chunks/2-dddfd5cf.js'),
-			() => import('./chunks/3-47277f01.js'),
-			() => import('./chunks/4-e6c0e458.js'),
-			() => import('./chunks/5-9653efd4.js'),
-			() => import('./chunks/6-8ccd6d12.js'),
-			() => import('./chunks/7-bb847b65.js'),
-			() => import('./chunks/8-550021e0.js'),
-			() => import('./chunks/9-e2eaeead.js'),
-			() => import('./chunks/10-03c66882.js'),
-			() => import('./chunks/11-d549d5f7.js')
+			() => import('./chunks/0-15c29c96.js'),
+			() => import('./chunks/1-5bc5e5b9.js'),
+			() => import('./chunks/2-85f2782a.js'),
+			() => import('./chunks/3-734951f2.js'),
+			() => import('./chunks/4-6ae5ee81.js'),
+			() => import('./chunks/5-a83333a2.js'),
+			() => import('./chunks/6-7b6a9dfe.js'),
+			() => import('./chunks/7-17264b64.js'),
+			() => import('./chunks/8-039b2f98.js'),
+			() => import('./chunks/9-9e475325.js'),
+			() => import('./chunks/10-203b0f24.js'),
+			() => import('./chunks/11-f2e87d61.js')
 		],
 		routes: [
 			{

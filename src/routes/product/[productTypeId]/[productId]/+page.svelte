@@ -3,7 +3,7 @@
   /** @type {import('./$types').PageData} */
   export let data: any;
 
-  const fallback = "Realink — Nossos Jogos";
+  const fallback = "Rogue Unit — Nossos Jogos";
   let title = data?.content?.title ?? fallback;
   let description = (data?.content?.content ?? title)
     .replace(/\*/g, "")

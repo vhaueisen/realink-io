@@ -6,14 +6,19 @@
     Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
   --font-accent: "Overpass", sans-serif;
   --pure-white: #ffffff;
-  --primary-color: #331fc9;
-  --secondary-color: #e52553;
+  --primary-color: #59dbd8;
+  --secondary-color: #382189;
   --accent-color: ##a5c8d7;
   --text-color: #fff;
   --hover-color: #a5c8d7;
   --active-color: #a5c8d7;
   --horizontal-gradient: linear-gradient(
     90deg,
+    var(--secondary-color) 0%,
+    var(--primary-color) 100%
+  );
+  --vertical-gradient: linear-gradient(
+    180deg,
     var(--primary-color) 0%,
     var(--secondary-color) 100%
   );

@@ -3,7 +3,7 @@
   import Navbar from "$lib/Components/Navbar.svelte";
   import { page } from "$app/stores";
   import "../app.css";
-  const author = "Realink";
+  const author = "Rogue Unit";
 </script>
 
 <svelte:head>
@@ -24,17 +24,21 @@
 
 <Navbar />
 <BackgroundContainer
-  backdrop={$page.url.pathname.includes("metaverse") ||
+  backdrop={$page.url.pathname.includes("experiences") ||
     $page.url.pathname.includes("games") ||
     $page.url.pathname.includes("privacy-policy") ||
     $page.url.pathname.includes("/r") ||
     $page.url.pathname.includes("content")}
 >
   <div class="full-wh">
-    <div class="bg-animation">
-      <div class="stars" />
-      <div class="stars1" />
-    </div>
+    <!-- background video here -->
+    <video
+      autoplay
+      muted
+      loop
+      class="bg-animation"
+      src="/background/background.mp4"
+    />
   </div>
   <slot />
 </BackgroundContainer>

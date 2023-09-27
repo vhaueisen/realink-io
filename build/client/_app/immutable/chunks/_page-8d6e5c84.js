@@ -1,1 +1,0 @@
-import{d as t,e as r}from"./index-fae30e0f.js";function n({params:o}){const e=new t().getLinks(o.productId);if(e)return e;throw r(404,"Not found")}const d=Object.freeze(Object.defineProperty({__proto__:null,load:n},Symbol.toStringTag,{value:"Module"}));export{d as _,n as l};

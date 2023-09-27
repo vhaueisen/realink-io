@@ -1,7 +1,7 @@
 <script>
-  const title = "Realink — Início";
+  const title = "Rogue Unit — Início";
   let description =
-    "Realink é um estúdio de jogos e desenvolvimento de software. Nós desenvolvemos experiências imersivas digitais para o seu negócio.";
+    "Rogue Unit é um estúdio de jogos para as plataformas ROBLOX e ZEPETO. Nós desenvolvemos experiências imersivas digitais para o seu negócio.";
 </script>
 
 <svelte:head>

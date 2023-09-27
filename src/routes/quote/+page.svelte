@@ -2,7 +2,7 @@
   import QuoteForm from "$lib/Components/QuoteForm.svelte";
   /** @type {import('./$types').ActionData} */
   export let form;
-  const title = "Realink — Contato";
+  const title = "Rogue Unit — Contato";
   let description =
     "Entre em contato conosco para saber mais sobre nossos serviços.";
 </script>

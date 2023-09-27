@@ -10,7 +10,7 @@
   });
   export let data: any;
 
-  const fallback = "Realink — Nossos Jogos";
+  const fallback = "Rogue Unit — Nossos Jogos";
   let title = data?.title ?? fallback;
   let description = (data?.description ?? title)
     .replace(/\*/g, "")

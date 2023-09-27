@@ -9,11 +9,11 @@ export const actions = {
 		const message = data.get('message');
 		const messageId = await sendMail({
 			remoteAddress: event.getClientAddress(),
-			to: 'contato@realink.io',
+			to: 'vitor@rogueunit.gg',
 			cc: `${email}`,
-			subject: `Realink | Contato — ${companyName}`,
+			subject: `Rogue Unit | Contato — ${companyName}`,
 			html: `
-					<h1>Contato Realink</h1>
+					<h1>Contato Rogue Unit</h1>
 					<p>Mensagem: ${message}</p>
 					<br>
 					<hr/>
@@ -21,7 +21,7 @@ export const actions = {
 					<p>Email: ${email}</p>
 				`,
 			text: `
-					Contato Realink
+					Contato Rogue Unit
 					Mensagem: ${message}
 					Empresa: ${companyName}
 					Email: ${email}
