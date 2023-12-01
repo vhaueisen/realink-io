@@ -6,6 +6,7 @@ import { sportvLand } from '$lib/models/SportvLand';
 import type { IProduct } from '$lib/models/IProduct';
 import { OS } from '$lib/Utils/OS';
 import { papaPeixe } from '$lib/models/PapaPeixe';
+import { loudLeague } from '$lib/models/LoudLeague';
 
 export const Products: Array<{ id: string; content: IProduct[] }> = [
 	{
@@ -120,6 +121,26 @@ export const Products: Array<{ id: string; content: IProduct[] }> = [
 		content: [
 			{
 				id: 0,
+				title: 'LOUD Lendas do Futebol — 2023',
+				img: '/loud-league/logo.png',
+				content: loudLeague,
+				slides: [
+					'https://www.youtube.com/embed/KdrcnifxInk',
+					'/loud-league/1.png',
+					'/loud-league/2.png',
+					'/loud-league/3.png',
+					'/loud-league/4.png',
+					'/loud-league/5.png',
+					'/loud-league/6.png',
+					'/loud-league/7.png',
+				],
+				link: [
+					{ href: { [OS.Desktop]: 'https://www.roblox.com/groups/33292168/LOUD-GG' }, text: "Acessar" },
+					{ href: { [OS.Desktop]: '/quote' }, text: "Contato" },
+				]
+			},
+			{
+				id: 1,
 				title: 'Sportv Land — 2022',
 				img: 'https://tr.rbxcdn.com/7b2105ef8eb79214b4fb95c6b6a6702b/512/512/Image/Png',
 				content: sportvLand,

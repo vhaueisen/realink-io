@@ -12,6 +12,11 @@ var OS = /* @__PURE__ */ ((OS2) => {
   OS2[OS2["Desktop"] = 3] = "Desktop";
   return OS2;
 })(OS || {});
+const loudLeague = `Una-se \xE0s for\xE7as do renomado time de esports, LOUD, na Liga LOUD: Lendas do Futebol. Teste suas habilidades em partidas emocionantes contra jogadores de todo o mundo enquanto sobe nas classifica\xE7\xF5es para reivindicar seu lugar no topo. Venha participar de partidas inesquec\xEDveis de futebol: drible, corra, fa\xE7a gols e divirta-se com seus amigos. Personalize sua experi\xEAncia com itens exclusivos e prove que voc\xEA tem o que \xE9 preciso para dominar o campo.
+ 
+- \u{1F455} Itens novos exclusivos!
+- \u26BD Junte-se aos seus amigos para competir em partidas de futebol!
+- \u{1F3C6} Seja o melhor jogador no ranking`;
 const Products = [
   {
     id: "games",
@@ -34,6 +39,26 @@ const Products = [
     content: [
       {
         id: 0,
+        title: "LOUD Lendas do Futebol \u2014 2023",
+        img: "/loud-league/logo.png",
+        content: loudLeague,
+        slides: [
+          "https://www.youtube.com/embed/KdrcnifxInk",
+          "/loud-league/1.png",
+          "/loud-league/2.png",
+          "/loud-league/3.png",
+          "/loud-league/4.png",
+          "/loud-league/5.png",
+          "/loud-league/6.png",
+          "/loud-league/7.png"
+        ],
+        link: [
+          { href: { [OS.Desktop]: "https://www.roblox.com/groups/33292168/LOUD-GG" }, text: "Acessar" },
+          { href: { [OS.Desktop]: "/quote" }, text: "Contato" }
+        ]
+      },
+      {
+        id: 1,
         title: "Sportv Land \u2014 2022",
         img: "https://tr.rbxcdn.com/7b2105ef8eb79214b4fb95c6b6a6702b/512/512/Image/Png",
         content: sportvLand,
@@ -131,4 +156,4 @@ class db {
 }
 
 export { db as d };
-//# sourceMappingURL=index3-311f117a.js.map
+//# sourceMappingURL=index3-ee4eddf1.js.map
