@@ -1,22 +1,22 @@
 const manifest = {
 	appDir: "_app",
-	assets: new Set(["background/background.mp4","background/Dust1.png","background/Dust2.png","background/primary-background.jpg","boneco_neco/icon.png","boneco_neco/slide1.png","build_your_bus/icon.png","build_your_bus/slide1.png","cn_meta/slide1.jpeg","cn_meta/slide2.jpeg","cn_meta/slide3.jpeg","cn_meta/slide4.jpeg","colorindo/icon.png","colorindo/slide1.png","explode_asteroids/icon.webp","explode_asteroids/slide1.png","favicon.png","hyperlight_wings/slide1.png","logo_preto_v.png","loud-league/1.png","loud-league/2.png","loud-league/3.png","loud-league/4.png","loud-league/5.png","loud-league/6.png","loud-league/7.png","loud-league/logo.png","nestle/surpresa.html","papa-peixe/slide1.png","papa-peixe/slide2.png","papa-peixe/slide3.png","papa-peixe/slide4.png","robots.txt","rogue-icon.png","rogue-line.png"]),
+	assets: new Set(["background/background.mp4","background/Dust1.png","background/Dust2.png","background/primary-background.jpg","boneco_neco/icon.png","boneco_neco/slide1.png","build_your_bus/icon.png","build_your_bus/slide1.png","cn_meta/slide1.jpeg","cn_meta/slide2.jpeg","cn_meta/slide3.jpeg","cn_meta/slide4.jpeg","colorindo/icon.png","colorindo/slide1.png","explode_asteroids/icon.webp","explode_asteroids/slide1.png","favicon.png","hyperlight_wings/slide1.png","logo_h.png","loud-league/1.png","loud-league/2.png","loud-league/3.png","loud-league/4.png","loud-league/5.png","loud-league/6.png","loud-league/7.png","loud-league/logo.png","nestle/surpresa.html","papa-peixe/slide1.png","papa-peixe/slide2.png","papa-peixe/slide3.png","papa-peixe/slide4.png","robots.txt","rogue-icon.png","rogue-line.png"]),
 	mimeTypes: {".mp4":"video/mp4",".png":"image/png",".jpg":"image/jpeg",".jpeg":"image/jpeg",".webp":"image/webp",".html":"text/html",".txt":"text/plain"},
 	_: {
-		entry: {"file":"_app/immutable/start-184cfa8d.js","imports":["_app/immutable/start-184cfa8d.js","_app/immutable/chunks/preload-helper-b21cceae.js","_app/immutable/chunks/index-9f90c359.js","_app/immutable/chunks/singletons-c896fad3.js","_app/immutable/chunks/control-03134885.js"],"stylesheets":[]},
+		entry: {"file":"_app/immutable/start-7e1d9dd6.js","imports":["_app/immutable/start-7e1d9dd6.js","_app/immutable/chunks/preload-helper-b21cceae.js","_app/immutable/chunks/index-9f90c359.js","_app/immutable/chunks/singletons-941f87bc.js","_app/immutable/chunks/control-03134885.js"],"stylesheets":[]},
 		nodes: [
-			() => import('./chunks/0-705bb856.js'),
+			() => import('./chunks/0-4e5da7d8.js'),
 			() => import('./chunks/1-5bc5e5b9.js'),
-			() => import('./chunks/2-85f2782a.js'),
+			() => import('./chunks/2-325de33b.js'),
 			() => import('./chunks/3-734951f2.js'),
 			() => import('./chunks/4-6ae5ee81.js'),
 			() => import('./chunks/5-a83333a2.js'),
 			() => import('./chunks/6-7b6a9dfe.js'),
 			() => import('./chunks/7-17264b64.js'),
 			() => import('./chunks/8-039b2f98.js'),
-			() => import('./chunks/9-76cd28c9.js'),
-			() => import('./chunks/10-203b0f24.js'),
-			() => import('./chunks/11-e7b2fe43.js')
+			() => import('./chunks/9-384b0ac1.js'),
+			() => import('./chunks/10-d1628e39.js'),
+			() => import('./chunks/11-88441149.js')
 		],
 		routes: [
 			{

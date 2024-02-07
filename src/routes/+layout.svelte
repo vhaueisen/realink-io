@@ -66,30 +66,6 @@
     height: 100%;
   }
 
-  .stars {
-    position: fixed;
-    top: -5000px;
-    left: -5000px;
-    width: 20000px;
-    height: 20000px;
-    background-repeat: repeat;
-    animation: Odd 150s linear infinite;
-    opacity: 0.05;
-    background-image: url(/background/Dust1.png);
-  }
-
-  .stars1 {
-    position: fixed;
-    top: -5000px;
-    left: -5000px;
-    width: 20000px;
-    height: 20000px;
-    background-repeat: repeat;
-    animation: Even 80s linear infinite;
-    opacity: 0.07;
-    background-image: url(/background/Dust2.png);
-  }
-
   @keyframes Odd {
     from {
       transform: translate(0px, 0px);

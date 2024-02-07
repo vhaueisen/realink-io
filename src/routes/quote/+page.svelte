@@ -10,17 +10,13 @@
 <svelte:head>
   <title>{title}</title>
   <meta name="description" content={description} />
-  <meta
-    rel="icon"
-    type="image/png"
-    href="https://realink.io/logo_preto_v.png"
-  />
+  <meta rel="icon" type="image/png" href="https://realink.io/logo_h.png" />
   <meta name="og:title" property="og:title" content={title} />
   <meta name="og:description" property="og:description" content={description} />
   <meta
     name="og:image"
     property="og:image"
-    content="https://realink.io/logo_preto_v.png"
+    content="https://realink.io/logo_h.png"
   />
 </svelte:head>
 

@@ -2,6 +2,15 @@ import { OS } from "$lib/Utils/OS";
 
 export const Links = [
     {
+        title: "Trabalhe Conosco",
+        id: "vagas",
+        description: "Venha trabalhar na Rogue Unit! Estamos sempre em busca de novos talentos para compor nosso time.",
+        img: "/logo_h.png",
+        links: [
+            { href: { [OS.Desktop]: 'https://www.linkedin.com/jobs/view/3823237965' }, text: "Desenvolvedor Roblox Jr." },
+        ],
+    },
+    {
         title: "Papa Peixe",
         id: "papapeixe",
         description: "Papa-Peixe é um jogo eletrônico do gênero puzzle casual, focado na cultura do Mato Grosso, que possui dois tipos de jogabilidade: palavras cruzadas e caça palavras.",
