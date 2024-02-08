@@ -9,7 +9,7 @@ export const actions = {
 		const message = data.get('message');
 		const messageId = await sendMail({
 			remoteAddress: event.getClientAddress(),
-			to: 'vitor@rogueunit.gg',
+			to: 'contato@rogueunit.gg',
 			cc: `${email}`,
 			subject: `Rogue Unit | Contato — ${companyName}`,
 			html: `
@@ -29,8 +29,7 @@ export const actions = {
 			attachments: [],
 			replyTo: email
 		});
-		if (messageId)
-			return { success: true };
+		if (messageId) return { success: true };
 		return invalid(400, { success: false, error: 'Você já enviou seu contato recentemente. Por favor, tente novamente mais tarde.' });
 	}
 };

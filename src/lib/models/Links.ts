@@ -7,7 +7,7 @@ export const Links = [
         description: "Venha trabalhar na Rogue Unit! Estamos sempre em busca de novos talentos para compor nosso time.",
         img: "/logo_h.png",
         links: [
-            { href: { [OS.Desktop]: 'https://www.linkedin.com/jobs/view/3823237965' }, text: "Desenvolvedor Roblox Jr." },
+            { href: { [OS.Desktop]: 'https://www.linkedin.com/jobs/view/3823237965' }, text: "Dev. Roblox Jr." },
         ],
     },
     {

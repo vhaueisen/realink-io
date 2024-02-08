@@ -29,6 +29,10 @@ html {
   margin: 0;
 }
 
+/* main.container {
+  background-image: url("/logo_h.png");
+} */
+
 body {
   height: 100%;
   margin: 0;
@@ -58,6 +62,7 @@ p {
 a {
   color: var(--pure-white);
   text-decoration: none;
+  text-wrap: nowrap;
 }
 
 a:hover {

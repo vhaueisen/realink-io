@@ -66,7 +66,7 @@
         ></svg
       ></a
     >
-    <a href="https://www.instagram.com/rogueunit_"
+    <a href="https://www.instagram.com/rogueunit.gg"
       ><svg
         id=""
         class="svelte-fa s-z-WEjw8Gh1FG"
