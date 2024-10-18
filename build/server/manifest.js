@@ -1,11 +1,11 @@
 const manifest = {
 	appDir: "_app",
-	assets: new Set(["background/background.mp4","background/Dust1.png","background/Dust2.png","background/primary-background.jpg","boneco_neco/icon.png","boneco_neco/slide1.png","build_your_bus/icon.png","build_your_bus/slide1.png","cn_meta/slide1.jpeg","cn_meta/slide2.jpeg","cn_meta/slide3.jpeg","cn_meta/slide4.jpeg","colorindo/icon.png","colorindo/slide1.png","explode_asteroids/icon.webp","explode_asteroids/slide1.png","favicon.png","hyperlight_wings/slide1.png","logo_h.png","loud-league/1.png","loud-league/2.png","loud-league/3.png","loud-league/4.png","loud-league/5.png","loud-league/6.png","loud-league/7.png","loud-league/logo.png","nestle/surpresa.html","papa-peixe/slide1.png","papa-peixe/slide2.png","papa-peixe/slide3.png","papa-peixe/slide4.png","robots.txt","rogue-icon.png","rogue-line.png"]),
+	assets: new Set(["background/background.mp4","background/Dust1.png","background/Dust2.png","background/primary-background.jpg","boneco_neco/icon.png","boneco_neco/slide1.png","build_your_bus/icon.png","build_your_bus/slide1.png","cn_meta/slide1.jpeg","cn_meta/slide2.jpeg","cn_meta/slide3.jpeg","cn_meta/slide4.jpeg","colorindo/icon.png","colorindo/slide1.png","explode_asteroids/icon.webp","explode_asteroids/slide1.png","favicon.png","hyperlight_wings/slide1.png","logo_h.png","loud-league/1.png","loud-league/2.png","loud-league/3.png","loud-league/4.png","loud-league/5.png","loud-league/6.png","loud-league/7.png","loud-league/logo.png","mail-icon.png","nestle/surpresa.html","papa-peixe/slide1.png","papa-peixe/slide2.png","papa-peixe/slide3.png","papa-peixe/slide4.png","robots.txt","rogue-icon.png","rogue-line.png"]),
 	mimeTypes: {".mp4":"video/mp4",".png":"image/png",".jpg":"image/jpeg",".jpeg":"image/jpeg",".webp":"image/webp",".html":"text/html",".txt":"text/plain"},
 	_: {
-		entry: {"file":"_app/immutable/start-166e83f7.js","imports":["_app/immutable/start-166e83f7.js","_app/immutable/chunks/preload-helper-b21cceae.js","_app/immutable/chunks/index-9f90c359.js","_app/immutable/chunks/singletons-ab601bd0.js","_app/immutable/chunks/control-03134885.js"],"stylesheets":[]},
+		entry: {"file":"_app/immutable/start-7d88ddc3.js","imports":["_app/immutable/start-7d88ddc3.js","_app/immutable/chunks/preload-helper-b21cceae.js","_app/immutable/chunks/index-9f90c359.js","_app/immutable/chunks/singletons-5a550bca.js","_app/immutable/chunks/control-03134885.js"],"stylesheets":[]},
 		nodes: [
-			() => import('./chunks/0-49ab0544.js'),
+			() => import('./chunks/0-0c4313fd.js'),
 			() => import('./chunks/1-5bc5e5b9.js'),
 			() => import('./chunks/2-325de33b.js'),
 			() => import('./chunks/3-734951f2.js'),
