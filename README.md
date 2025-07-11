@@ -1,38 +1,112 @@
-# create-svelte
+# 🔗 Realink.io
 
-Everything you need to build a Svelte project, powered by [`create-svelte`](https://github.com/sveltejs/kit/tree/master/packages/create-svelte).
+[![License: MIT](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
+[![Built with SvelteKit](https://img.shields.io/badge/built%20with-SvelteKit-orange?logo=svelte)](https://kit.svelte.dev)
+[![TypeScript](https://img.shields.io/badge/lang-TypeScript-blue?logo=typescript)](https://www.typescriptlang.org)
+[![Vite](https://img.shields.io/badge/bundler-Vite-646CFF?logo=vite\&logoColor=white)](https://vitejs.dev)
 
-## Creating a project
+**realink.io** is a modern, fast, and scalable institutional website built with **SvelteKit**.
+It powers dynamic quote forms, product pages, and marketing content for multiple interactive experiences created by Realink.
 
-If you're seeing this, you've probably already done this step. Congrats!
+---
 
-```bash
-# create a new project in the current directory
-npm create svelte@latest
+## ✨ Features
 
-# create a new project in my-app
-npm create svelte@latest my-app
+* ⚡️ **Fast, static-ready frontend** powered by Vite + SvelteKit
+* 💼 **Quote request system** with Google Gmail integration
+* 📊 **Modular content system** for projects, products, and case studies
+* 🔒 **Rate limiting & spam protection** via `rate-limiter-flexible`
+* 📄 **Markdown-based** content structure (ideal for blog-style and product detail pages)
+* 📬 **Gmail OAuth integration** via Google APIs for backend mail handling
+
+---
+
+## 📁 Project Structure
+
+```
+src/
+├── lib/
+│   ├── Components/        # Reusable UI components (QuoteForm, Navbar, etc.)
+│   ├── Data/              # Local data loaders (form logic, database calls)
+│   ├── models/            # TypeScript models for products, links, projects
+│   └── server/gmail/      # Gmail integration (OAuth, mailcomposer)
+│
+├── routes/                # SvelteKit routes: /product, /quote, /privacy-policy, etc.
+│   └── quote/             # Includes +page.server.ts for handling form submissions
+│
+├── static/                # Public assets
+└── app.html               # Custom app shell
 ```
 
-## Developing
+---
 
-Once you've created a project and installed dependencies with `npm install` (or `pnpm install` or `yarn`), start a development server:
+## 🛠️ Stack
+
+| Area              | Tech                                       |
+| ----------------- | ------------------------------------------ |
+| ⚙️ Framework      | [SvelteKit](https://kit.svelte.dev)        |
+| 💅 UI             | Svelte components    |
+| 📨 Email Sending  | `gmail.js` + `mailcomposer` + Google OAuth |
+| 📦 Dev Build Tool | [Vite](https://vitejs.dev)                 |
+| 🔐 Security       | `rate-limiter-flexible`                    |
+
+---
+
+## ⚙️ Getting Started
+
+Clone the project:
+
+```bash
+git clone https://github.com/vhaueisen/realink-io.git
+cd realink-io
+```
+
+Install dependencies:
+
+```bash
+npm install
+```
+
+Run in dev mode:
 
 ```bash
 npm run dev
-
-# or start the server and open the app in a new browser tab
-npm run dev -- --open
 ```
 
-## Building
+Open [`http://localhost:5173`](http://localhost:5173)
 
-To create a production version of your app:
+---
+
+## 🏗️ Build for Production
 
 ```bash
 npm run build
+npm run preview
 ```
 
-You can preview the production build with `npm run preview`.
+Deploy with any Node-compatible platform (supports Vercel, Fly.io, custom VPS, etc.).
 
-> To deploy your app, you may need to install an [adapter](https://kit.svelte.dev/docs/adapters) for your target environment.
+---
+
+## 🔐 Gmail API Setup
+
+To enable email sending via quote form:
+
+1. Create credentials in the Google Cloud Console (OAuth 2.0 client).
+2. Add the following to your `.env`:
+
+```env
+GMAIL_CLIENT_ID=xxx
+GMAIL_CLIENT_SECRET=xxx
+GMAIL_REFRESH_TOKEN=xxx
+GMAIL_REDIRECT_URI=xxx
+GMAIL_SENDER_EMAIL=your@email.com
+```
+
+3. Configure `src/lib/server/gmail/gmail.ts` to use the credentials above.
+
+---
+
+## 📄 License
+
+Distributed under the **MIT License**. See [LICENSE](LICENSE) for more info.
